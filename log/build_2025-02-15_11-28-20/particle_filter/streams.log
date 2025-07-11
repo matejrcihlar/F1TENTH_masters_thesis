@@ -1,0 +1,49 @@
+[2.397s] Invoking command in '/home/mrc/sim_ws/src/particle_filter': PYTHONPATH=/home/mrc/sim_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/mrc/sim_ws/build/particle_filter/build install --record /home/mrc/sim_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data
+[3.314s] running egg_info
+[3.316s] creating ../../build/particle_filter/particle_filter.egg-info
+[3.317s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[3.318s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[3.319s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[3.320s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[3.320s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[3.324s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.423s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.429s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.430s] running build
+[3.431s] running build_py
+[3.431s] creating /home/mrc/sim_ws/build/particle_filter/build
+[3.432s] creating /home/mrc/sim_ws/build/particle_filter/build/lib
+[3.432s] creating /home/mrc/sim_ws/build/particle_filter/build/lib/particle_filter
+[3.433s] copying particle_filter/utils.py -> /home/mrc/sim_ws/build/particle_filter/build/lib/particle_filter
+[3.433s] copying particle_filter/__init__.py -> /home/mrc/sim_ws/build/particle_filter/build/lib/particle_filter
+[3.434s] copying particle_filter/particle_filter.py -> /home/mrc/sim_ws/build/particle_filter/build/lib/particle_filter
+[3.434s] running install
+[3.436s] running install_lib
+[3.438s] creating /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[3.438s] copying /home/mrc/sim_ws/build/particle_filter/build/lib/particle_filter/utils.py -> /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[3.439s] copying /home/mrc/sim_ws/build/particle_filter/build/lib/particle_filter/__init__.py -> /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[3.439s] copying /home/mrc/sim_ws/build/particle_filter/build/lib/particle_filter/particle_filter.py -> /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[3.441s] byte-compiling /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter/utils.py to utils.cpython-38.pyc
+[3.447s] byte-compiling /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter/__init__.py to __init__.cpython-38.pyc
+[3.448s] byte-compiling /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter/particle_filter.py to particle_filter.cpython-38.pyc
+[3.455s] running install_data
+[3.455s] creating /home/mrc/sim_ws/install/particle_filter/share/ament_index
+[3.456s] creating /home/mrc/sim_ws/install/particle_filter/share/ament_index/resource_index
+[3.456s] creating /home/mrc/sim_ws/install/particle_filter/share/ament_index/resource_index/packages
+[3.456s] copying resource/particle_filter -> /home/mrc/sim_ws/install/particle_filter/share/ament_index/resource_index/packages
+[3.457s] copying package.xml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter
+[3.458s] creating /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[3.459s] copying maps/levine.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[3.460s] copying maps/basement_fixed.map.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[3.460s] copying maps/levine.pgm -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[3.468s] copying maps/basement_fixed.png -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[3.469s] creating /home/mrc/sim_ws/install/particle_filter/share/particle_filter/launch
+[3.469s] copying launch/localize_launch.py -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/launch
+[3.469s] creating /home/mrc/sim_ws/install/particle_filter/share/particle_filter/config
+[3.470s] copying config/localize.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/config
+[3.470s] running install_egg_info
+[3.473s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[3.474s] running install_scripts
+[3.518s] Installing particle_filter script to /home/mrc/sim_ws/install/particle_filter/lib/particle_filter
+[3.519s] writing list of installed files to '/home/mrc/sim_ws/build/particle_filter/install.log'
+[3.581s] Invoked command in '/home/mrc/sim_ws/src/particle_filter' returned '0': PYTHONPATH=/home/mrc/sim_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/mrc/sim_ws/build/particle_filter/build install --record /home/mrc/sim_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data

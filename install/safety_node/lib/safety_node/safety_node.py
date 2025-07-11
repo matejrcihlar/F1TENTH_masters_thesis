@@ -1,0 +1,1 @@
+/home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node/scripts/safety_node.py

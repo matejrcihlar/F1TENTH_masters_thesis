@@ -1,0 +1,77 @@
+[0.031s] Invoking command in '/home/mrc/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab3_template/wall_follow -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/wall_follow
+[0.502s] -- The C compiler identification is GNU 9.4.0
+[0.843s] -- The CXX compiler identification is GNU 9.4.0
+[0.863s] -- Check for working C compiler: /usr/bin/cc
+[0.991s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.996s] -- Detecting C compiler ABI info
+[1.133s] -- Detecting C compiler ABI info - done
+[1.146s] -- Detecting C compile features
+[1.147s] -- Detecting C compile features - done
+[1.155s] -- Check for working CXX compiler: /usr/bin/c++
+[1.300s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.303s] -- Detecting CXX compiler ABI info
+[1.461s] -- Detecting CXX compiler ABI info - done
+[1.472s] -- Detecting CXX compile features
+[1.473s] -- Detecting CXX compile features - done
+[1.482s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.544s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.544s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.926s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.080s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.272s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.315s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.623s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.630s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.635s] -- Looking for pthread.h
+[2.773s] -- Looking for pthread.h - found
+[2.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.895s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.895s] -- Looking for pthread_create in pthreads
+[2.995s] -- Looking for pthread_create in pthreads - not found
+[2.995s] -- Looking for pthread_create in pthread
+[3.102s] -- Looking for pthread_create in pthread - found
+[3.105s] -- Found Threads: TRUE  
+[3.413s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[3.418s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.482s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.601s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[3.673s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.835s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.984s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.991s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.992s] -- Added test 'lint_cmake' to check CMake code style
+[3.995s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.999s] -- Added test 'xmllint' to check XML markup files
+[4.007s] -- Configuring done
+[4.013s] -- Generating done
+[4.016s] -- Build files have been written to: /home/mrc/sim_ws/build/wall_follow
+[4.033s] Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab3_template/wall_follow -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/wall_follow
+[4.035s] Invoking command in '/home/mrc/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/wall_follow -- -j2 -l2
+[4.115s] Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/wall_follow -- -j2 -l2
+[4.122s] Invoking command in '/home/mrc/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/wall_follow
+[4.139s] -- Install configuration: ""
+[4.139s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[4.139s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[4.139s] -- Installing: /home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow
+[4.139s] -- Installing: /home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+[4.181s] Listing '/home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+[4.181s] Compiling '/home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py'...
+[4.187s] -- Installing: /home/mrc/sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py
+[4.188s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[4.188s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[4.188s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[4.189s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[4.189s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[4.189s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[4.190s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[4.190s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[4.190s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[4.190s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[4.191s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/package.dsv
+[4.191s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[4.191s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[4.192s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[4.192s] -- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/package.xml
+[4.197s] Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/wall_follow

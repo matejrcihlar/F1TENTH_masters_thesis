@@ -1,0 +1,2 @@
+Invoking command in '/home/mrc/sim_ws/build/safety_node': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/safety_node
+Invoked command in '/home/mrc/sim_ws/build/safety_node' returned '1': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/safety_node

@@ -1,0 +1,35 @@
+[0.429s] Invoking command in '/home/mrc/sim_ws/build/gap_follow': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab4_template/gap_follow -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/gap_follow
+[1.789s] -- The C compiler identification is GNU 9.4.0
+[2.342s] -- The CXX compiler identification is GNU 9.4.0
+[2.367s] -- Check for working C compiler: /usr/bin/cc
+[2.617s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.620s] -- Detecting C compiler ABI info
+[2.787s] -- Detecting C compiler ABI info - done
+[2.808s] -- Detecting C compile features
+[2.809s] -- Detecting C compile features - done
+[2.815s] -- Check for working CXX compiler: /usr/bin/c++
+[2.999s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.001s] -- Detecting CXX compiler ABI info
+[3.139s] -- Detecting CXX compiler ABI info - done
+[3.163s] -- Detecting CXX compile features
+[3.164s] -- Detecting CXX compile features - done
+[3.194s] CMake Error at CMakeLists.txt:25 (find_package):
+[3.194s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.194s]   has asked CMake to find a package configuration file provided by
+[3.195s]   "ament_cmake", but CMake did not find one.
+[3.195s] 
+[3.195s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.195s]   any of the following names:
+[3.195s] 
+[3.195s]     ament_cmakeConfig.cmake
+[3.196s]     ament_cmake-config.cmake
+[3.196s] 
+[3.196s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.197s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.197s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.197s]   has been installed.
+[3.197s] 
+[3.198s] 
+[3.198s] -- Configuring incomplete, errors occurred!
+[3.198s] See also "/home/mrc/sim_ws/build/gap_follow/CMakeFiles/CMakeOutput.log".
+[3.203s] Invoked command in '/home/mrc/sim_ws/build/gap_follow' returned '1': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab4_template/gap_follow -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/gap_follow

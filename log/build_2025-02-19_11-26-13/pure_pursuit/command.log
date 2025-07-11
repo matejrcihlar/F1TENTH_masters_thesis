@@ -1,0 +1,2 @@
+Invoking command in '/home/mrc/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/pure_pursuit -- -j2 -l2
+Invoked command in '/home/mrc/sim_ws/build/pure_pursuit' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/pure_pursuit -- -j2 -l2

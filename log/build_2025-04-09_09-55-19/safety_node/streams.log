@@ -1,0 +1,50 @@
+[0.114s] Invoking command in '/home/mrc/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/safety_node
+[0.172s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.310s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.402s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.487s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.735s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.118s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.124s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.338s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[5.339s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.195s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[6.435s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.119s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.738s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.755s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.760s] -- Added test 'lint_cmake' to check CMake code style
+[7.766s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.776s] -- Added test 'xmllint' to check XML markup files
+[7.815s] -- Configuring done
+[7.851s] -- Generating done
+[7.886s] -- Build files have been written to: /home/mrc/sim_ws/build/safety_node
+[7.979s] Invoked command in '/home/mrc/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/safety_node
+[7.990s] Invoking command in '/home/mrc/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/safety_node -- -j2 -l2
+[8.315s] Invoked command in '/home/mrc/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/safety_node -- -j2 -l2
+[8.335s] Invoking command in '/home/mrc/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/safety_node
+[8.450s] -- Install configuration: ""
+[8.450s] -- Execute custom install script
+[8.454s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.sh
+[8.554s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv
+[8.667s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py
+[8.755s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/lib/safety_node/safety_node.py
+[8.847s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[8.907s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[9.015s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[9.065s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[9.145s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/path.sh
+[9.242s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/path.dsv
+[9.339s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/local_setup.bash
+[9.449s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/local_setup.sh
+[9.484s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/local_setup.zsh
+[9.580s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/local_setup.dsv
+[9.651s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/package.dsv
+[9.712s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[9.795s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[9.848s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[9.916s] -- Symlinking: /home/mrc/sim_ws/install/safety_node/share/safety_node/package.xml
+[10.158s] Listing '/home/mrc/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node'...
+[10.197s] Invoked command in '/home/mrc/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/safety_node

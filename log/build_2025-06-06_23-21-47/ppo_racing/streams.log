@@ -1,0 +1,33 @@
+[2.234s] Invoking command in '/home/mrc/sim_ws/src/ppo_racing': PYTHONPATH=/home/mrc/sim_ws/build/ppo_racing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ppo_racing build --build-base /home/mrc/sim_ws/build/ppo_racing/build install --record /home/mrc/sim_ws/build/ppo_racing/install.log --install-scripts $base/lib/ppo_racing --single-version-externally-managed install_data
+[2.958s] running egg_info
+[2.959s] writing ../../build/ppo_racing/ppo_racing.egg-info/PKG-INFO
+[2.964s] writing dependency_links to ../../build/ppo_racing/ppo_racing.egg-info/dependency_links.txt
+[2.965s] writing entry points to ../../build/ppo_racing/ppo_racing.egg-info/entry_points.txt
+[2.965s] writing requirements to ../../build/ppo_racing/ppo_racing.egg-info/requires.txt
+[2.965s] writing top-level names to ../../build/ppo_racing/ppo_racing.egg-info/top_level.txt
+[3.069s] reading manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+[3.072s] writing manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+[3.075s] running build
+[3.075s] running build_py
+[3.079s] copying ppo_racing/reward_node.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+[3.080s] copying ppo_racing/ppo_agent.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+[3.080s] copying ppo_racing/train.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+[3.081s] copying ppo_racing/multi_env_train.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+[3.082s] running install
+[3.084s] running install_lib
+[3.089s] copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/reward_node.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[3.090s] copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/ppo_agent.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[3.090s] copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/train.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[3.091s] copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/multi_env_train.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[3.092s] byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/reward_node.py to reward_node.cpython-38.pyc
+[3.099s] byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/ppo_agent.py to ppo_agent.cpython-38.pyc
+[3.101s] byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/train.py to train.cpython-38.pyc
+[3.105s] byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/multi_env_train.py to multi_env_train.cpython-38.pyc
+[3.108s] running install_data
+[3.109s] running install_egg_info
+[3.115s] removing '/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info' (and everything under it)
+[3.116s] Copying ../../build/ppo_racing/ppo_racing.egg-info to /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info
+[3.121s] running install_scripts
+[3.166s] Installing policy_node script to /home/mrc/sim_ws/install/ppo_racing/lib/ppo_racing
+[3.167s] writing list of installed files to '/home/mrc/sim_ws/build/ppo_racing/install.log'
+[3.225s] Invoked command in '/home/mrc/sim_ws/src/ppo_racing' returned '0': PYTHONPATH=/home/mrc/sim_ws/build/ppo_racing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ppo_racing build --build-base /home/mrc/sim_ws/build/ppo_racing/build install --record /home/mrc/sim_ws/build/ppo_racing/install.log --install-scripts $base/lib/ppo_racing --single-version-externally-managed install_data

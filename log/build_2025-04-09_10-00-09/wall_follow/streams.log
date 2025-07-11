@@ -1,0 +1,51 @@
+[0.044s] Invoking command in '/home/mrc/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab3_template/wall_follow -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/wall_follow
+[0.196s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.531s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.884s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.049s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.646s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.704s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.854s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.894s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.100s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[7.112s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[7.362s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[8.136s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[8.530s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[9.295s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.729s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.747s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.748s] -- Added test 'lint_cmake' to check CMake code style
+[9.749s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.755s] -- Added test 'xmllint' to check XML markup files
+[9.764s] -- Configuring done
+[9.795s] -- Generating done
+[9.803s] -- Build files have been written to: /home/mrc/sim_ws/build/wall_follow
+[9.850s] Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab3_template/wall_follow -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/wall_follow
+[9.855s] Invoking command in '/home/mrc/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/wall_follow -- -j2 -l2
+[10.166s] Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/wall_follow -- -j2 -l2
+[10.178s] Invoking command in '/home/mrc/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/wall_follow
+[10.256s] -- Install configuration: ""
+[10.260s] -- Execute custom install script
+[10.264s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[10.274s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[10.278s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+[10.281s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py
+[10.281s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[10.281s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[10.282s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[10.283s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[10.286s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[10.288s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[10.288s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[10.289s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[10.290s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[10.294s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[10.294s] -- Symlinking: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/package.dsv
+[10.373s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[10.376s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[10.378s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[10.379s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/package.xml
+[10.579s] Listing '/home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+[10.609s] Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/wall_follow

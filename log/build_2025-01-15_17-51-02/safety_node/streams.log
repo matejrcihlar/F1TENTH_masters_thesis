@@ -1,0 +1,21 @@
+[0.365s] Invoking command in '/home/mrc/sim_ws/build/safety_node': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/safety_node
+[0.421s] CMake Error at CMakeLists.txt:24 (find_package):
+[0.422s]   By not providing "Find{PACKAGE}.cmake" in CMAKE_MODULE_PATH this project
+[0.422s]   has asked CMake to find a package configuration file provided by
+[0.422s]   "{PACKAGE}", but CMake did not find one.
+[0.422s] 
+[0.422s]   Could not find a package configuration file provided by "{PACKAGE}" with
+[0.422s]   any of the following names:
+[0.422s] 
+[0.423s]     {PACKAGE}Config.cmake
+[0.423s]     {package}-config.cmake
+[0.423s] 
+[0.423s]   Add the installation prefix of "{PACKAGE}" to CMAKE_PREFIX_PATH or set
+[0.423s]   "{PACKAGE}_DIR" to a directory containing one of the above files.  If
+[0.423s]   "{PACKAGE}" provides a separate development package or SDK, be sure it has
+[0.423s]   been installed.
+[0.423s] 
+[0.424s] 
+[0.424s] -- Configuring incomplete, errors occurred!
+[0.424s] See also "/home/mrc/sim_ws/build/safety_node/CMakeFiles/CMakeOutput.log".
+[0.433s] Invoked command in '/home/mrc/sim_ws/build/safety_node' returned '1': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/safety_node

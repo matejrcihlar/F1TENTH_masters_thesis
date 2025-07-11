@@ -1,0 +1,1 @@
+/home/mrc/sim_ws/build/pure_pursuit/ament_cmake_environment_hooks/pythonpath.sh

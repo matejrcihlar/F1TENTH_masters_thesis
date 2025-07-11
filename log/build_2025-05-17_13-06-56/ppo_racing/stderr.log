@@ -1,0 +1,8 @@
+package init file 'ppo_racing/__init__.py' not found (or not a regular file)
+  File "/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/env_wrapper.py", line 107
+    """Resets sim to start
+                          
+
+   ^
+SyntaxError: EOF while scanning triple-quoted string literal
+

@@ -1,0 +1,4 @@
+[console_scripts]
+RRT_node = rrt_package.RRT_node:main
+rrt_pure_pursuit = rrt_package.rrt_pure_pursuit:main
+

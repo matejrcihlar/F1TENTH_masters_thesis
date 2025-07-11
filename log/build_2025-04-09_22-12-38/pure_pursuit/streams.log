@@ -1,0 +1,26 @@
+[0.108s] Invoking command in '/home/mrc/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/pure_pursuit -- -j2 -l2
+[0.559s] Invoked command in '/home/mrc/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/pure_pursuit -- -j2 -l2
+[0.564s] Invoking command in '/home/mrc/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/pure_pursuit
+[0.658s] -- Install configuration: ""
+[0.667s] -- Execute custom install script
+[0.668s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+[0.669s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+[0.675s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py
+[0.679s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+[0.689s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[0.690s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[0.694s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[0.697s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[0.702s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[0.715s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[0.717s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[0.722s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[0.723s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[0.724s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[0.727s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[0.814s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[0.817s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[0.818s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[0.819s] -- Up-to-date symlink: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[1.106s] Listing '/home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...
+[1.179s] Invoked command in '/home/mrc/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/pure_pursuit

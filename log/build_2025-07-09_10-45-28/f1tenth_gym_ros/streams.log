@@ -1,0 +1,22 @@
+[8.525s] Invoking command in '/home/mrc/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/mrc/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/mrc/sim_ws/build/f1tenth_gym_ros/build install --record /home/mrc/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
+[8.935s] running egg_info
+[8.936s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[8.937s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[8.937s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[8.938s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[8.938s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[9.216s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[9.255s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[9.256s] running build
+[9.256s] running build_py
+[9.257s] running install
+[9.259s] running install_lib
+[9.262s] running install_data
+[9.263s] copying config/sim.yaml -> /home/mrc/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[9.264s] running install_egg_info
+[9.267s] removing '/home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)
+[9.268s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info
+[9.301s] running install_scripts
+[9.330s] Installing gym_bridge script to /home/mrc/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[9.332s] writing list of installed files to '/home/mrc/sim_ws/build/f1tenth_gym_ros/install.log'
+[9.369s] Invoked command in '/home/mrc/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/mrc/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/mrc/sim_ws/build/f1tenth_gym_ros/build install --record /home/mrc/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data

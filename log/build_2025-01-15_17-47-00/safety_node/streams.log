@@ -1,0 +1,21 @@
+[0.343s] Invoking command in '/home/mrc/sim_ws/build/safety_node': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/safety_node
+[0.408s] CMake Error at CMakeLists.txt:24 (find_package):
+[0.409s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.409s]   has asked CMake to find a package configuration file provided by
+[0.409s]   "ament_cmake", but CMake did not find one.
+[0.409s] 
+[0.409s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.410s]   any of the following names:
+[0.412s] 
+[0.412s]     ament_cmakeConfig.cmake
+[0.413s]     ament_cmake-config.cmake
+[0.413s] 
+[0.414s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.414s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.414s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.414s]   has been installed.
+[0.414s] 
+[0.414s] 
+[0.420s] -- Configuring incomplete, errors occurred!
+[0.421s] See also "/home/mrc/sim_ws/build/safety_node/CMakeFiles/CMakeOutput.log".
+[0.423s] Invoked command in '/home/mrc/sim_ws/build/safety_node' returned '1': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/safety_node

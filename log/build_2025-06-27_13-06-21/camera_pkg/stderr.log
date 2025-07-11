@@ -1,0 +1,5 @@
+  File "/home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg/opp_pose_tester.py", line 17
+    super().__init__('opp_pose_tester)
+                                     ^
+SyntaxError: EOL while scanning string literal
+

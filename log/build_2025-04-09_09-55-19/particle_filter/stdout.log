@@ -1,0 +1,26 @@
+running develop
+running egg_info
+writing particle_filter.egg-info/PKG-INFO
+writing dependency_links to particle_filter.egg-info/dependency_links.txt
+writing entry points to particle_filter.egg-info/entry_points.txt
+writing requirements to particle_filter.egg-info/requires.txt
+writing top-level names to particle_filter.egg-info/top_level.txt
+reading manifest file 'particle_filter.egg-info/SOURCES.txt'
+writing manifest file 'particle_filter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/site.py
+Creating /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle-filter.egg-link (link to .)
+Installing particle_filter script to /home/mrc/sim_ws/install/particle_filter/lib/particle_filter
+
+Installed /home/mrc/sim_ws/build/particle_filter
+running symlink_data
+symbolically linking /home/mrc/sim_ws/build/particle_filter/resource/particle_filter -> /home/mrc/sim_ws/install/particle_filter/share/ament_index/resource_index/packages
+symbolically linking /home/mrc/sim_ws/build/particle_filter/package.xml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter
+symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/levine_obs.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/levine.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/basement_fixed.map.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/levine.pgm -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/basement_fixed.png -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/levine_obs.png -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/mrc/sim_ws/build/particle_filter/launch/localize_launch.py -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/launch
+symbolically linking /home/mrc/sim_ws/build/particle_filter/config/localize.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/config

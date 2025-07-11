@@ -1,0 +1,51 @@
+[1.369s] Invoking command in '/home/mrc/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab4_template/gap_follow -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/gap_follow
+[1.564s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.771s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.535s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.647s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.137s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.031s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.626s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.646s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.184s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[7.188s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[7.526s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[8.185s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[8.496s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[9.300s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.037s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.055s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.082s] -- Added test 'lint_cmake' to check CMake code style
+[10.090s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.094s] -- Added test 'xmllint' to check XML markup files
+[10.138s] -- Configuring done
+[10.212s] -- Generating done
+[10.234s] -- Build files have been written to: /home/mrc/sim_ws/build/gap_follow
+[11.457s] Invoked command in '/home/mrc/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab4_template/gap_follow -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/gap_follow
+[11.459s] Invoking command in '/home/mrc/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/gap_follow -- -j2 -l2
+[11.769s] Invoked command in '/home/mrc/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/gap_follow -- -j2 -l2
+[11.874s] Invoking command in '/home/mrc/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/gap_follow
+[11.979s] -- Install configuration: ""
+[11.980s] -- Execute custom install script
+[11.984s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[12.113s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[12.205s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[12.284s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/lib/gap_follow/reactive_node.py
+[12.370s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[12.463s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[12.559s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[12.669s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[12.751s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/path.sh
+[12.854s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/path.dsv
+[12.941s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.bash
+[13.031s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.sh
+[13.143s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.zsh
+[13.232s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.dsv
+[13.326s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/package.dsv
+[13.412s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[13.486s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[13.547s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[13.654s] -- Symlinking: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/package.xml
+[14.103s] Listing '/home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[14.128s] Invoked command in '/home/mrc/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/gap_follow

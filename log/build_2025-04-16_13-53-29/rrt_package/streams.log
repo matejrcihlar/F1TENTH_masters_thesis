@@ -1,0 +1,25 @@
+[2.390s] Invoking command in '/home/mrc/sim_ws/src/rrt_package': PYTHONPATH=/home/mrc/sim_ws/build/rrt_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_package build --build-base /home/mrc/sim_ws/build/rrt_package/build install --record /home/mrc/sim_ws/build/rrt_package/install.log --install-scripts $base/lib/rrt_package --single-version-externally-managed install_data
+[3.126s] running egg_info
+[3.129s] writing ../../build/rrt_package/rrt_package.egg-info/PKG-INFO
+[3.134s] writing dependency_links to ../../build/rrt_package/rrt_package.egg-info/dependency_links.txt
+[3.135s] writing entry points to ../../build/rrt_package/rrt_package.egg-info/entry_points.txt
+[3.136s] writing requirements to ../../build/rrt_package/rrt_package.egg-info/requires.txt
+[3.139s] writing top-level names to ../../build/rrt_package/rrt_package.egg-info/top_level.txt
+[3.227s] reading manifest file '../../build/rrt_package/rrt_package.egg-info/SOURCES.txt'
+[3.230s] writing manifest file '../../build/rrt_package/rrt_package.egg-info/SOURCES.txt'
+[3.231s] running build
+[3.232s] running build_py
+[3.233s] copying rrt_package/RRT_node.py -> /home/mrc/sim_ws/build/rrt_package/build/lib/rrt_package
+[3.234s] running install
+[3.235s] running install_lib
+[3.238s] copying /home/mrc/sim_ws/build/rrt_package/build/lib/rrt_package/RRT_node.py -> /home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package
+[3.240s] byte-compiling /home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package/RRT_node.py to RRT_node.cpython-38.pyc
+[3.247s] running install_data
+[3.248s] running install_egg_info
+[3.255s] removing '/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package-0.0.0-py3.8.egg-info' (and everything under it)
+[3.257s] Copying ../../build/rrt_package/rrt_package.egg-info to /home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package-0.0.0-py3.8.egg-info
+[3.262s] running install_scripts
+[3.314s] Installing RRT_node script to /home/mrc/sim_ws/install/rrt_package/lib/rrt_package
+[3.316s] Installing rrt_pure_pursuit script to /home/mrc/sim_ws/install/rrt_package/lib/rrt_package
+[3.318s] writing list of installed files to '/home/mrc/sim_ws/build/rrt_package/install.log'
+[3.395s] Invoked command in '/home/mrc/sim_ws/src/rrt_package' returned '0': PYTHONPATH=/home/mrc/sim_ws/build/rrt_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_package build --build-base /home/mrc/sim_ws/build/rrt_package/build install --record /home/mrc/sim_ws/build/rrt_package/install.log --install-scripts $base/lib/rrt_package --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+[2.143s] Invoking command in '/home/mrc/sim_ws/src/camera_pkg': PYTHONPATH=/home/mrc/sim_ws/build/camera_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/mrc/sim_ws/build/camera_pkg/build install --record /home/mrc/sim_ws/build/camera_pkg/install.log --install-scripts $base/lib/camera_pkg --single-version-externally-managed install_data
+[2.876s] running egg_info
+[2.879s] writing ../../build/camera_pkg/camera_pkg.egg-info/PKG-INFO
+[2.881s] writing dependency_links to ../../build/camera_pkg/camera_pkg.egg-info/dependency_links.txt
+[2.883s] writing entry points to ../../build/camera_pkg/camera_pkg.egg-info/entry_points.txt
+[2.884s] writing requirements to ../../build/camera_pkg/camera_pkg.egg-info/requires.txt
+[2.885s] writing top-level names to ../../build/camera_pkg/camera_pkg.egg-info/top_level.txt
+[2.980s] reading manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[2.983s] writing manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[2.984s] running build
+[2.984s] running build_py
+[2.985s] copying camera_pkg/opp_pose_tester.py -> /home/mrc/sim_ws/build/camera_pkg/build/lib/camera_pkg
+[2.986s] running install
+[2.988s] running install_lib
+[2.991s] copying /home/mrc/sim_ws/build/camera_pkg/build/lib/camera_pkg/opp_pose_tester.py -> /home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg
+[2.993s] byte-compiling /home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg/opp_pose_tester.py to opp_pose_tester.cpython-38.pyc
+[3.001s] running install_data
+[3.002s] running install_egg_info
+[3.009s] removing '/home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.010s] Copying ../../build/camera_pkg/camera_pkg.egg-info to /home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg-0.0.0-py3.8.egg-info
+[3.015s] running install_scripts
+[3.059s] Installing opp_pose_estimator script to /home/mrc/sim_ws/install/camera_pkg/lib/camera_pkg
+[3.060s] Installing opp_pose_tester script to /home/mrc/sim_ws/install/camera_pkg/lib/camera_pkg
+[3.064s] writing list of installed files to '/home/mrc/sim_ws/build/camera_pkg/install.log'
+[3.128s] Invoked command in '/home/mrc/sim_ws/src/camera_pkg' returned '0': PYTHONPATH=/home/mrc/sim_ws/build/camera_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/mrc/sim_ws/build/camera_pkg/build install --record /home/mrc/sim_ws/build/camera_pkg/install.log --install-scripts $base/lib/camera_pkg --single-version-externally-managed install_data

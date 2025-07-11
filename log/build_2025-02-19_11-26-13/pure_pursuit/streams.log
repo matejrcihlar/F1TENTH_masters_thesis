@@ -1,0 +1,27 @@
+[0.050s] Invoking command in '/home/mrc/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/pure_pursuit -- -j2 -l2
+[0.239s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.381s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.586s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.782s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.824s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.831s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.611s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[3.612s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.807s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.220s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[4.415s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.906s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[5.347s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[7.506s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[7.532s] -- Configuring incomplete, errors occurred!
+[7.561s] See also "/home/mrc/sim_ws/build/pure_pursuit/CMakeFiles/CMakeOutput.log".
+[7.568s] See also "/home/mrc/sim_ws/build/pure_pursuit/CMakeFiles/CMakeError.log".
+[7.577s]   ament_target_dependencies() the first argument must be a valid target name
+[7.578s] Call Stack (most recent call first):
+[7.588s]   CMakeLists.txt:39 (ament_target_dependencies)
+[7.590s] 
+[7.590s] 
+[7.607s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[7.632s] Invoked command in '/home/mrc/sim_ws/build/pure_pursuit' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/pure_pursuit -- -j2 -l2

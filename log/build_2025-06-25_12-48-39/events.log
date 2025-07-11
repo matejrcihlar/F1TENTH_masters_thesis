@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.003820] (-) JobUnselected: {'identifier': 'camera_pkg'}
+[0.004030] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.004164] (-) JobUnselected: {'identifier': 'gap_follow'}
+[0.004216] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.004257] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.004296] (-) JobUnselected: {'identifier': 'rrt_package'}
+[0.004334] (-) JobUnselected: {'identifier': 'safety_node'}
+[0.004370] (-) JobUnselected: {'identifier': 'wall_follow'}
+[0.004414] (ppo_racing) JobQueued: {'identifier': 'ppo_racing', 'dependencies': OrderedDict()}
+[0.004461] (ppo_racing) JobStarted: {'identifier': 'ppo_racing'}
+[0.090827] (-) TimerEvent: {}
+[0.193630] (-) TimerEvent: {}
+[0.296601] (-) TimerEvent: {}
+[0.398673] (-) TimerEvent: {}
+[0.503237] (-) TimerEvent: {}
+[0.605599] (-) TimerEvent: {}
+[0.707496] (-) TimerEvent: {}
+[0.808856] (-) TimerEvent: {}
+[0.909363] (-) TimerEvent: {}
+[1.009943] (-) TimerEvent: {}
+[1.115995] (-) TimerEvent: {}
+[1.217661] (-) TimerEvent: {}
+[1.322774] (-) TimerEvent: {}
+[1.425464] (-) TimerEvent: {}
+[1.531200] (-) TimerEvent: {}
+[1.632643] (-) TimerEvent: {}
+[1.733759] (-) TimerEvent: {}
+[1.834458] (-) TimerEvent: {}
+[1.936660] (-) TimerEvent: {}
+[2.039759] (-) TimerEvent: {}
+[2.140443] (-) TimerEvent: {}
+[2.252432] (-) TimerEvent: {}
+[2.357532] (-) TimerEvent: {}
+[2.462810] (-) TimerEvent: {}
+[2.564342] (-) TimerEvent: {}
+[2.666987] (-) TimerEvent: {}
+[2.768924] (-) TimerEvent: {}
+[2.875372] (-) TimerEvent: {}
+[2.980706] (-) TimerEvent: {}
+[3.082421] (-) TimerEvent: {}
+[3.183079] (-) TimerEvent: {}
+[3.284905] (-) TimerEvent: {}
+[3.388243] (-) TimerEvent: {}
+[3.490109] (-) TimerEvent: {}
+[3.595718] (-) TimerEvent: {}
+[3.696450] (-) TimerEvent: {}
+[3.797178] (-) TimerEvent: {}
+[3.897880] (-) TimerEvent: {}
+[3.998745] (-) TimerEvent: {}
+[4.099694] (-) TimerEvent: {}
+[4.204180] (-) TimerEvent: {}
+[4.305659] (-) TimerEvent: {}
+[4.407364] (-) TimerEvent: {}
+[4.509420] (-) TimerEvent: {}
+[4.610458] (-) TimerEvent: {}
+[4.709533] (ppo_racing) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ppo_racing', 'build', '--build-base', '/home/mrc/sim_ws/build/ppo_racing/build', 'install', '--record', '/home/mrc/sim_ws/build/ppo_racing/install.log', '--install-scripts', '$base/lib/ppo_racing', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mrc/sim_ws/src/ppo_racing', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mrc', 'LC_TIME': 'hr_HR.UTF-8', 'SSH_AGENT_PID': '1537', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/mrc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'MANAGERPID': '1442', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8170', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/mrc/sim_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'mrc', 'JOURNAL_STREAM': '8:59237', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mrc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/mrc/.local/bin:/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/mrc-foxy:@/tmp/.ICE-unix/1572,unix/mrc-foxy:/tmp/.ICE-unix/1572', 'INVOCATION_ID': '6e327e5815594cecb6f839287bade99e', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mrc/sim_ws/install/wall_follow:/home/mrc/sim_ws/install/safety_node:/home/mrc/sim_ws/install/rrt_package:/home/mrc/sim_ws/install/pure_pursuit:/home/mrc/sim_ws/install/ppo_racing:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/gap_follow:/home/mrc/sim_ws/install/f1tenth_gym_ros:/home/mrc/sim_ws/install/camera_pkg:/home/mrc/sim_ws/install/RRT_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:8b1c2e03-e6dc-4969-9036-6afdb375e29c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mrc/sim_ws/build/ppo_racing', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrc/sim_ws/build/ppo_racing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages:/home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages:/home/mrc/sim_ws/install/safety_node/lib/python3.8/site-packages:/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages:/home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages:/home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages:/home/mrc/sim_ws/install/RRT_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/mrc/sim_ws/install/wall_follow:/home/mrc/sim_ws/install/safety_node:/home/mrc/sim_ws/install/pure_pursuit:/home/mrc/sim_ws/install/gap_follow'}, 'shell': False}
+[4.727911] (-) TimerEvent: {}
+[4.830127] (-) TimerEvent: {}
+[4.931061] (-) TimerEvent: {}
+[5.031936] (-) TimerEvent: {}
+[5.135639] (-) TimerEvent: {}
+[5.237322] (-) TimerEvent: {}
+[5.338714] (-) TimerEvent: {}
+[5.440896] (-) TimerEvent: {}
+[5.542092] (-) TimerEvent: {}
+[5.642631] (-) TimerEvent: {}
+[5.743264] (-) TimerEvent: {}
+[5.844969] (-) TimerEvent: {}
+[5.945882] (-) TimerEvent: {}
+[6.046525] (-) TimerEvent: {}
+[6.149295] (-) TimerEvent: {}
+[6.251503] (-) TimerEvent: {}
+[6.352157] (-) TimerEvent: {}
+[6.453295] (-) TimerEvent: {}
+[6.554854] (-) TimerEvent: {}
+[6.584648] (ppo_racing) StdoutLine: {'line': b'running egg_info\n'}
+[6.592574] (ppo_racing) StdoutLine: {'line': b'writing ../../build/ppo_racing/ppo_racing.egg-info/PKG-INFO\n'}
+[6.592905] (ppo_racing) StdoutLine: {'line': b'writing dependency_links to ../../build/ppo_racing/ppo_racing.egg-info/dependency_links.txt\n'}
+[6.593178] (ppo_racing) StdoutLine: {'line': b'writing entry points to ../../build/ppo_racing/ppo_racing.egg-info/entry_points.txt\n'}
+[6.593357] (ppo_racing) StdoutLine: {'line': b'writing requirements to ../../build/ppo_racing/ppo_racing.egg-info/requires.txt\n'}
+[6.593550] (ppo_racing) StdoutLine: {'line': b'writing top-level names to ../../build/ppo_racing/ppo_racing.egg-info/top_level.txt\n'}
+[6.655327] (-) TimerEvent: {}
+[6.756517] (-) TimerEvent: {}
+[6.797020] (ppo_racing) StdoutLine: {'line': b"reading manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'\n"}
+[6.805068] (ppo_racing) StdoutLine: {'line': b"writing manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'\n"}
+[6.807015] (ppo_racing) StdoutLine: {'line': b'running build\n'}
+[6.807346] (ppo_racing) StdoutLine: {'line': b'running build_py\n'}
+[6.812498] (ppo_racing) StdoutLine: {'line': b'copying ppo_racing/policy_node_local_obs.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing\n'}
+[6.813048] (ppo_racing) StdoutLine: {'line': b'running install\n'}
+[6.816377] (ppo_racing) StdoutLine: {'line': b'running install_lib\n'}
+[6.822832] (ppo_racing) StdoutLine: {'line': b'copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/policy_node_local_obs.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing\n'}
+[6.826717] (ppo_racing) StdoutLine: {'line': b'byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/policy_node_local_obs.py to policy_node_local_obs.cpython-38.pyc\n'}
+[6.838773] (ppo_racing) StdoutLine: {'line': b'running install_data\n'}
+[6.839274] (ppo_racing) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.844584] (ppo_racing) StdoutLine: {'line': b"removing '/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.845920] (ppo_racing) StdoutLine: {'line': b'Copying ../../build/ppo_racing/ppo_racing.egg-info to /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info\n'}
+[6.850140] (ppo_racing) StdoutLine: {'line': b'running install_scripts\n'}
+[6.857993] (-) TimerEvent: {}
+[6.933158] (ppo_racing) StdoutLine: {'line': b'Installing multi_agent_policy_node script to /home/mrc/sim_ws/install/ppo_racing/lib/ppo_racing\n'}
+[6.934209] (ppo_racing) StdoutLine: {'line': b'Installing policy_node script to /home/mrc/sim_ws/install/ppo_racing/lib/ppo_racing\n'}
+[6.935384] (ppo_racing) StdoutLine: {'line': b'Installing policy_node_local_obs script to /home/mrc/sim_ws/install/ppo_racing/lib/ppo_racing\n'}
+[6.939561] (ppo_racing) StdoutLine: {'line': b"writing list of installed files to '/home/mrc/sim_ws/build/ppo_racing/install.log'\n"}
+[6.964078] (-) TimerEvent: {}
+[7.068320] (-) TimerEvent: {}
+[7.095256] (ppo_racing) CommandEnded: {'returncode': 0}
+[7.170421] (-) TimerEvent: {}
+[7.222642] (ppo_racing) JobEnded: {'identifier': 'ppo_racing', 'rc': 0}
+[7.233912] (-) EventReactorShutdown: {}

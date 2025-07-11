@@ -1,0 +1,5 @@
+[0.447s] Invoking command in '/home/mrc/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/safety_node -- -j2 -l2
+[0.508s] CMake Error: The source directory "/home/mrc/sim_ws/src/f1tenth_lab2_template/safety_node" does not exist.
+[0.508s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.510s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.514s] Invoked command in '/home/mrc/sim_ws/build/safety_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/safety_node -- -j2 -l2

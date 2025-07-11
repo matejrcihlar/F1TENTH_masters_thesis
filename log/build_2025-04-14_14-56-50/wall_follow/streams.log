@@ -1,0 +1,26 @@
+[0.045s] Invoking command in '/home/mrc/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/rrt_package:/home/mrc/sim_ws/install/RRT_package:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/wall_follow -- -j2 -l2
+[0.146s] Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/rrt_package:/home/mrc/sim_ws/install/RRT_package:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/wall_follow -- -j2 -l2
+[0.147s] Invoking command in '/home/mrc/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/rrt_package:/home/mrc/sim_ws/install/RRT_package:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/wall_follow
+[0.169s] -- Install configuration: ""
+[0.170s] -- Execute custom install script
+[0.171s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[0.172s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[0.175s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+[0.176s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py
+[0.177s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[0.178s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[0.179s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[0.179s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[0.180s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[0.181s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[0.182s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[0.183s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[0.184s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[0.185s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[0.186s] -- Symlinking: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/package.dsv
+[0.210s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[0.211s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[0.212s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[0.212s] -- Up-to-date symlink: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/package.xml
+[0.264s] Listing '/home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+[0.279s] Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/rrt_package:/home/mrc/sim_ws/install/RRT_package:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/wall_follow

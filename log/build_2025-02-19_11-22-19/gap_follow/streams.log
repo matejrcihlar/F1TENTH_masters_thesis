@@ -1,0 +1,26 @@
+[2.414s] Invoking command in '/home/mrc/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/gap_follow -- -j2 -l2
+[3.906s] Invoked command in '/home/mrc/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/gap_follow -- -j2 -l2
+[4.023s] Invoking command in '/home/mrc/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/gap_follow
+[4.207s] -- Install configuration: ""
+[4.227s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[4.231s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[4.237s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[4.238s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[4.767s] Listing '/home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[4.826s] -- Installing: /home/mrc/sim_ws/install/gap_follow/lib/gap_follow/reactive_node.py
+[4.831s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[4.839s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[4.843s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[4.843s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[4.844s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/path.sh
+[4.844s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/path.dsv
+[4.844s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.bash
+[4.845s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.sh
+[4.848s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.zsh
+[4.849s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.dsv
+[4.851s] -- Installing: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/package.dsv
+[4.856s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[4.860s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[4.860s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[4.867s] -- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/package.xml
+[4.885s] Invoked command in '/home/mrc/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/gap_follow

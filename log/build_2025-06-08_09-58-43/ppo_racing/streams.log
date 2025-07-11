@@ -1,0 +1,34 @@
+[1.256s] Invoking command in '/home/mrc/sim_ws/src/ppo_racing': PYTHONPATH=/home/mrc/sim_ws/build/ppo_racing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ppo_racing build --build-base /home/mrc/sim_ws/build/ppo_racing/build install --record /home/mrc/sim_ws/build/ppo_racing/install.log --install-scripts $base/lib/ppo_racing --single-version-externally-managed install_data
+[1.639s] running egg_info
+[1.641s] writing ../../build/ppo_racing/ppo_racing.egg-info/PKG-INFO
+[1.642s] writing dependency_links to ../../build/ppo_racing/ppo_racing.egg-info/dependency_links.txt
+[1.642s] writing entry points to ../../build/ppo_racing/ppo_racing.egg-info/entry_points.txt
+[1.643s] writing requirements to ../../build/ppo_racing/ppo_racing.egg-info/requires.txt
+[1.645s] writing top-level names to ../../build/ppo_racing/ppo_racing.egg-info/top_level.txt
+[1.696s] reading manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+[1.697s] writing manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+[1.698s] running build
+[1.698s] running build_py
+[1.699s] copying ppo_racing/policy_node.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+[1.700s] copying ppo_racing/env_wrapper.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+[1.700s] copying ppo_racing/train.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+[1.700s] copying ppo_racing/multi_env_train.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+[1.701s] running install
+[1.703s] running install_lib
+[1.704s] copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/policy_node.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[1.705s] copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/env_wrapper.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[1.705s] copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/train.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[1.705s] copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/multi_env_train.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+[1.706s] byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/policy_node.py to policy_node.cpython-38.pyc
+[1.710s] byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/env_wrapper.py to env_wrapper.cpython-38.pyc
+[1.710s] Sorry: IndentationError: unexpected indent (env_wrapper.py, line 2)
+[1.711s] byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/train.py to train.cpython-38.pyc
+[1.713s] byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/multi_env_train.py to multi_env_train.cpython-38.pyc
+[1.716s] running install_data
+[1.716s] running install_egg_info
+[1.719s] removing '/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info' (and everything under it)
+[1.719s] Copying ../../build/ppo_racing/ppo_racing.egg-info to /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info
+[1.721s] running install_scripts
+[1.744s] Installing policy_node script to /home/mrc/sim_ws/install/ppo_racing/lib/ppo_racing
+[1.745s] writing list of installed files to '/home/mrc/sim_ws/build/ppo_racing/install.log'
+[1.789s] Invoked command in '/home/mrc/sim_ws/src/ppo_racing' returned '0': PYTHONPATH=/home/mrc/sim_ws/build/ppo_racing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ppo_racing build --build-base /home/mrc/sim_ws/build/ppo_racing/build install --record /home/mrc/sim_ws/build/ppo_racing/install.log --install-scripts $base/lib/ppo_racing --single-version-externally-managed install_data

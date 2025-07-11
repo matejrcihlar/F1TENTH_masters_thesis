@@ -1,0 +1,2 @@
+Invoking command in '/home/mrc/sim_ws/build/gap_follow': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab4_template/gap_follow -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/gap_follow
+Invoked command in '/home/mrc/sim_ws/build/gap_follow' returned '1': /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab4_template/gap_follow -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/gap_follow

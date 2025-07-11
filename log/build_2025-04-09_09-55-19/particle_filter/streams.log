@@ -1,0 +1,28 @@
+[5.322s] Invoking command in '/home/mrc/sim_ws/build/particle_filter': PYTHONPATH=/home/mrc/sim_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mrc/sim_ws/build/particle_filter/build --no-deps symlink_data --force
+[7.740s] running develop
+[9.368s] running egg_info
+[9.369s] writing particle_filter.egg-info/PKG-INFO
+[9.372s] writing dependency_links to particle_filter.egg-info/dependency_links.txt
+[9.373s] writing entry points to particle_filter.egg-info/entry_points.txt
+[9.373s] writing requirements to particle_filter.egg-info/requires.txt
+[9.377s] writing top-level names to particle_filter.egg-info/top_level.txt
+[9.656s] reading manifest file 'particle_filter.egg-info/SOURCES.txt'
+[9.659s] writing manifest file 'particle_filter.egg-info/SOURCES.txt'
+[10.061s] running build_ext
+[10.068s] Creating /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/site.py
+[10.079s] Creating /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle-filter.egg-link (link to .)
+[10.090s] Installing particle_filter script to /home/mrc/sim_ws/install/particle_filter/lib/particle_filter
+[10.091s] 
+[10.091s] Installed /home/mrc/sim_ws/build/particle_filter
+[10.091s] running symlink_data
+[10.091s] symbolically linking /home/mrc/sim_ws/build/particle_filter/resource/particle_filter -> /home/mrc/sim_ws/install/particle_filter/share/ament_index/resource_index/packages
+[10.092s] symbolically linking /home/mrc/sim_ws/build/particle_filter/package.xml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter
+[10.092s] symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/levine_obs.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[10.092s] symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/levine.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[10.092s] symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/basement_fixed.map.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[10.095s] symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/levine.pgm -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[10.095s] symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/basement_fixed.png -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[10.096s] symbolically linking /home/mrc/sim_ws/build/particle_filter/maps/levine_obs.png -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/maps
+[10.116s] symbolically linking /home/mrc/sim_ws/build/particle_filter/launch/localize_launch.py -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/launch
+[10.116s] symbolically linking /home/mrc/sim_ws/build/particle_filter/config/localize.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/config
+[10.312s] Invoked command in '/home/mrc/sim_ws/build/particle_filter' returned '0': PYTHONPATH=/home/mrc/sim_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mrc/sim_ws/build/particle_filter/build --no-deps symlink_data --force

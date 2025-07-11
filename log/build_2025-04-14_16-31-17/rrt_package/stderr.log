@@ -1,0 +1,2 @@
+/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package/RRT_node.py:173: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  while current_index is not 0:

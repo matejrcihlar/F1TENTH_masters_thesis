@@ -1,0 +1,1 @@
+/home/mrc/sim_ws/build/gap_follow/ament_cmake_environment_hooks/local_setup.zsh

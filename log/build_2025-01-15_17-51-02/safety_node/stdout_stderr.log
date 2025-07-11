@@ -1,0 +1,19 @@
+CMake Error at CMakeLists.txt:24 (find_package):
+  By not providing "Find{PACKAGE}.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "{PACKAGE}", but CMake did not find one.
+
+  Could not find a package configuration file provided by "{PACKAGE}" with
+  any of the following names:
+
+    {PACKAGE}Config.cmake
+    {package}-config.cmake
+
+  Add the installation prefix of "{PACKAGE}" to CMAKE_PREFIX_PATH or set
+  "{PACKAGE}_DIR" to a directory containing one of the above files.  If
+  "{PACKAGE}" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/mrc/sim_ws/build/safety_node/CMakeFiles/CMakeOutput.log".

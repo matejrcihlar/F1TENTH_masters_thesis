@@ -1,0 +1,53 @@
+[0.086s] Invoking command in '/home/mrc/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab6_template/pure_pursuit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/pure_pursuit
+[0.235s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.680s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.519s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.558s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.910s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.925s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.390s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.400s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.646s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[5.646s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.984s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.547s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[6.881s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.503s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[8.123s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[10.912s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.565s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.586s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.587s] -- Added test 'lint_cmake' to check CMake code style
+[11.589s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.602s] -- Added test 'xmllint' to check XML markup files
+[11.642s] -- Configuring done
+[11.698s] -- Generating done
+[11.726s] -- Build files have been written to: /home/mrc/sim_ws/build/pure_pursuit
+[11.781s] Invoked command in '/home/mrc/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/mrc/sim_ws/src/f1tenth_lab6_template/pure_pursuit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/pure_pursuit
+[11.797s] Invoking command in '/home/mrc/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/pure_pursuit -- -j2 -l2
+[12.256s] Invoked command in '/home/mrc/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/mrc/sim_ws/build/pure_pursuit -- -j2 -l2
+[12.277s] Invoking command in '/home/mrc/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/pure_pursuit
+[12.365s] -- Install configuration: ""
+[12.369s] -- Execute custom install script
+[12.387s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+[12.481s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+[12.626s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py
+[12.721s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+[12.824s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[12.886s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[12.983s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[13.073s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[13.148s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[13.213s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[13.324s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[13.412s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[13.485s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[13.556s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[13.626s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[13.689s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[13.763s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[13.829s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[13.904s] -- Symlinking: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[14.339s] Listing '/home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...
+[14.372s] Invoked command in '/home/mrc/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/mrc/sim_ws/build/pure_pursuit

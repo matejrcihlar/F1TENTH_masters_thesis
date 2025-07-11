@@ -1,0 +1,22 @@
+[6.246s] Invoking command in '/home/mrc/sim_ws/src/particle_filter': PYTHONPATH=/home/mrc/sim_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/mrc/sim_ws/build/particle_filter/build install --record /home/mrc/sim_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data
+[8.596s] running egg_info
+[8.600s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[8.601s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[8.602s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[8.605s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[8.605s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[8.909s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[8.916s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[8.916s] running build
+[8.916s] running build_py
+[8.917s] running install
+[8.918s] running install_lib
+[8.923s] running install_data
+[8.924s] copying launch/localize_launch.py -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/launch
+[8.924s] running install_egg_info
+[8.930s] removing '/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info' (and everything under it)
+[8.935s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[8.939s] running install_scripts
+[9.098s] Installing particle_filter script to /home/mrc/sim_ws/install/particle_filter/lib/particle_filter
+[9.100s] writing list of installed files to '/home/mrc/sim_ws/build/particle_filter/install.log'
+[9.224s] Invoked command in '/home/mrc/sim_ws/src/particle_filter' returned '0': PYTHONPATH=/home/mrc/sim_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/mrc/sim_ws/build/particle_filter/build install --record /home/mrc/sim_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data

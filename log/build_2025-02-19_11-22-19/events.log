@@ -1,0 +1,792 @@
+[0.000000] (-) TimerEvent: {}
+[0.000344] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.000435] (gap_follow) JobQueued: {'identifier': 'gap_follow', 'dependencies': OrderedDict()}
+[0.000499] (particle_filter) JobQueued: {'identifier': 'particle_filter', 'dependencies': OrderedDict()}
+[0.000562] (pure_pursuit) JobQueued: {'identifier': 'pure_pursuit', 'dependencies': OrderedDict()}
+[0.000623] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.000719] (wall_follow) JobQueued: {'identifier': 'wall_follow', 'dependencies': OrderedDict()}
+[0.000796] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.099997] (-) TimerEvent: {}
+[0.105218] (gap_follow) JobStarted: {'identifier': 'gap_follow'}
+[0.214555] (-) TimerEvent: {}
+[0.319345] (-) TimerEvent: {}
+[0.420849] (-) TimerEvent: {}
+[0.521852] (-) TimerEvent: {}
+[0.623014] (-) TimerEvent: {}
+[0.723546] (-) TimerEvent: {}
+[0.830444] (-) TimerEvent: {}
+[0.932266] (-) TimerEvent: {}
+[1.033685] (-) TimerEvent: {}
+[1.137907] (-) TimerEvent: {}
+[1.275731] (-) TimerEvent: {}
+[1.377118] (-) TimerEvent: {}
+[1.481075] (-) TimerEvent: {}
+[1.594694] (-) TimerEvent: {}
+[1.696394] (-) TimerEvent: {}
+[1.799500] (-) TimerEvent: {}
+[1.900891] (-) TimerEvent: {}
+[2.002161] (-) TimerEvent: {}
+[2.103937] (-) TimerEvent: {}
+[2.204596] (-) TimerEvent: {}
+[2.305467] (-) TimerEvent: {}
+[2.406522] (-) TimerEvent: {}
+[2.477557] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'cmake'}
+[2.503586] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'build'}
+[2.513004] (-) TimerEvent: {}
+[2.517049] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mrc/sim_ws/build/gap_follow', '--', '-j2', '-l2'], 'cwd': '/home/mrc/sim_ws/build/gap_follow', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mrc'), ('LC_TIME', 'hr_HR.UTF-8'), ('SSH_AGENT_PID', '1471'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mrc'), ('OLDPWD', '/home/mrc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mrc'), ('JOURNAL_STREAM', '8:53877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mrc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '891d5cc2133f4804b851d9223007c2d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mrc/sim_ws/build/gap_follow'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.615797] (-) TimerEvent: {}
+[2.718278] (-) TimerEvent: {}
+[2.821508] (-) TimerEvent: {}
+[2.924538] (-) TimerEvent: {}
+[3.026001] (-) TimerEvent: {}
+[3.130485] (-) TimerEvent: {}
+[3.231106] (-) TimerEvent: {}
+[3.332100] (-) TimerEvent: {}
+[3.433658] (-) TimerEvent: {}
+[3.539206] (-) TimerEvent: {}
+[3.640964] (-) TimerEvent: {}
+[3.741953] (-) TimerEvent: {}
+[3.843698] (-) TimerEvent: {}
+[3.946127] (-) TimerEvent: {}
+[4.010472] (gap_follow) CommandEnded: {'returncode': 0}
+[4.014590] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'install'}
+[4.046978] (-) TimerEvent: {}
+[4.127356] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mrc/sim_ws/build/gap_follow'], 'cwd': '/home/mrc/sim_ws/build/gap_follow', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mrc'), ('LC_TIME', 'hr_HR.UTF-8'), ('SSH_AGENT_PID', '1471'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mrc'), ('OLDPWD', '/home/mrc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mrc'), ('JOURNAL_STREAM', '8:53877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mrc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '891d5cc2133f4804b851d9223007c2d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mrc/sim_ws/build/gap_follow'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.147323] (-) TimerEvent: {}
+[4.249044] (-) TimerEvent: {}
+[4.312527] (gap_follow) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.332855] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh\n'}
+[4.335896] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv\n'}
+[4.342624] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow\n'}
+[4.343507] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py\n'}
+[4.349875] (-) TimerEvent: {}
+[4.450853] (-) TimerEvent: {}
+[4.552783] (-) TimerEvent: {}
+[4.653969] (-) TimerEvent: {}
+[4.756629] (-) TimerEvent: {}
+[4.869574] (-) TimerEvent: {}
+[4.872296] (gap_follow) StdoutLine: {'line': b"Listing '/home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow'...\n"}
+[4.931524] (gap_follow) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/gap_follow/lib/gap_follow/reactive_node.py\n'}
+[4.934633] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow\n'}
+[4.943982] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow\n'}
+[4.946825] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh\n'}
+[4.948737] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv\n'}
+[4.949137] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/path.sh\n'}
+[4.949487] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/environment/path.dsv\n'}
+[4.949806] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.bash\n'}
+[4.950166] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.sh\n'}
+[4.953737] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.zsh\n'}
+[4.954456] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/local_setup.dsv\n'}
+[4.956740] (gap_follow) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/package.dsv\n'}
+[4.961360] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow\n'}
+[4.965504] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake\n'}
+[4.965977] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake\n'}
+[4.969959] (-) TimerEvent: {}
+[4.972103] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/gap_follow/share/gap_follow/package.xml\n'}
+[4.986603] (gap_follow) CommandEnded: {'returncode': 0}
+[5.070680] (-) TimerEvent: {}
+[5.171471] (-) TimerEvent: {}
+[5.282772] (-) TimerEvent: {}
+[5.358822] (gap_follow) JobEnded: {'identifier': 'gap_follow', 'rc': 0}
+[5.375995] (particle_filter) JobStarted: {'identifier': 'particle_filter'}
+[5.389074] (-) TimerEvent: {}
+[5.492073] (-) TimerEvent: {}
+[5.600546] (-) TimerEvent: {}
+[5.705921] (-) TimerEvent: {}
+[5.809446] (-) TimerEvent: {}
+[5.918063] (-) TimerEvent: {}
+[6.019366] (-) TimerEvent: {}
+[6.147288] (-) TimerEvent: {}
+[6.249685] (-) TimerEvent: {}
+[6.418015] (-) TimerEvent: {}
+[6.545752] (-) TimerEvent: {}
+[6.653490] (-) TimerEvent: {}
+[6.757998] (-) TimerEvent: {}
+[6.859014] (-) TimerEvent: {}
+[6.960944] (-) TimerEvent: {}
+[7.062069] (-) TimerEvent: {}
+[7.163236] (-) TimerEvent: {}
+[7.270241] (-) TimerEvent: {}
+[7.376301] (-) TimerEvent: {}
+[7.480579] (-) TimerEvent: {}
+[7.602385] (-) TimerEvent: {}
+[7.728776] (-) TimerEvent: {}
+[7.832782] (-) TimerEvent: {}
+[7.936378] (-) TimerEvent: {}
+[8.038086] (-) TimerEvent: {}
+[8.142069] (-) TimerEvent: {}
+[8.242880] (-) TimerEvent: {}
+[8.345183] (-) TimerEvent: {}
+[8.446246] (-) TimerEvent: {}
+[8.547582] (-) TimerEvent: {}
+[8.651217] (-) TimerEvent: {}
+[8.753683] (-) TimerEvent: {}
+[8.858107] (-) TimerEvent: {}
+[8.963702] (-) TimerEvent: {}
+[9.065962] (-) TimerEvent: {}
+[9.167516] (-) TimerEvent: {}
+[9.274127] (-) TimerEvent: {}
+[9.378718] (-) TimerEvent: {}
+[9.480329] (-) TimerEvent: {}
+[9.582456] (-) TimerEvent: {}
+[9.689477] (-) TimerEvent: {}
+[9.776615] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/mrc/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/mrc/sim_ws/build/f1tenth_gym_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mrc/sim_ws/src/f1tenth_gym_ros', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mrc', 'LC_TIME': 'hr_HR.UTF-8', 'SSH_AGENT_PID': '1471', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/mrc', 'OLDPWD': '/home/mrc', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'MANAGERPID': '1376', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'mrc', 'JOURNAL_STREAM': '8:53877', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mrc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506', 'INVOCATION_ID': '891d5cc2133f4804b851d9223007c2d0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.75', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mrc/sim_ws/build/f1tenth_gym_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrc/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[9.803338] (-) TimerEvent: {}
+[9.920690] (-) TimerEvent: {}
+[10.025371] (-) TimerEvent: {}
+[10.127422] (-) TimerEvent: {}
+[10.228196] (-) TimerEvent: {}
+[10.329901] (-) TimerEvent: {}
+[10.431231] (-) TimerEvent: {}
+[10.534995] (-) TimerEvent: {}
+[10.642788] (-) TimerEvent: {}
+[10.746009] (-) TimerEvent: {}
+[10.846750] (-) TimerEvent: {}
+[10.948114] (-) TimerEvent: {}
+[11.049809] (-) TimerEvent: {}
+[11.150647] (-) TimerEvent: {}
+[11.252267] (-) TimerEvent: {}
+[11.358165] (-) TimerEvent: {}
+[11.463342] (-) TimerEvent: {}
+[11.569632] (-) TimerEvent: {}
+[11.670456] (-) TimerEvent: {}
+[11.777224] (-) TimerEvent: {}
+[11.878951] (-) TimerEvent: {}
+[11.983040] (-) TimerEvent: {}
+[12.084291] (-) TimerEvent: {}
+[12.192086] (-) TimerEvent: {}
+[12.293371] (-) TimerEvent: {}
+[12.406207] (-) TimerEvent: {}
+[12.508315] (-) TimerEvent: {}
+[12.562941] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[12.589260] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[12.602635] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[12.608989] (-) TimerEvent: {}
+[12.609445] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[12.610442] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[12.612403] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[12.711514] (-) TimerEvent: {}
+[12.843476] (-) TimerEvent: {}
+[12.954888] (-) TimerEvent: {}
+[13.049125] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[13.059369] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[13.059665] (-) TimerEvent: {}
+[13.064014] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[13.065442] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[13.079026] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[13.079397] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[13.105701] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[13.108546] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.126560] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[13.155697] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[13.156009] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[13.164410] (-) TimerEvent: {}
+[13.265747] (-) TimerEvent: {}
+[13.359891] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/mrc/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[13.372174] (-) TimerEvent: {}
+[13.374099] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/mrc/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[13.472701] (-) TimerEvent: {}
+[13.573615] (-) TimerEvent: {}
+[13.586768] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[13.673805] (-) TimerEvent: {}
+[13.711982] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[13.716457] (pure_pursuit) JobStarted: {'identifier': 'pure_pursuit'}
+[13.774488] (-) TimerEvent: {}
+[13.797193] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'cmake'}
+[13.825540] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '/home/mrc/sim_ws/src/f1tenth_lab6_template/pure_pursuit', '-DCMAKE_INSTALL_PREFIX=/home/mrc/sim_ws/install/pure_pursuit'], 'cwd': '/home/mrc/sim_ws/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mrc'), ('LC_TIME', 'hr_HR.UTF-8'), ('SSH_AGENT_PID', '1471'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mrc'), ('OLDPWD', '/home/mrc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mrc'), ('JOURNAL_STREAM', '8:53877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mrc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '891d5cc2133f4804b851d9223007c2d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mrc/sim_ws/build/pure_pursuit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.876082] (-) TimerEvent: {}
+[13.977568] (-) TimerEvent: {}
+[14.079240] (-) TimerEvent: {}
+[14.127375] (particle_filter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/particle_filter', 'build', '--build-base', '/home/mrc/sim_ws/build/particle_filter/build', 'install', '--record', '/home/mrc/sim_ws/build/particle_filter/install.log', '--install-scripts', '$base/lib/particle_filter', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mrc/sim_ws/src/particle_filter', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mrc', 'LC_TIME': 'hr_HR.UTF-8', 'SSH_AGENT_PID': '1471', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/mrc', 'OLDPWD': '/home/mrc', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'MANAGERPID': '1376', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'mrc', 'JOURNAL_STREAM': '8:53877', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mrc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506', 'INVOCATION_ID': '891d5cc2133f4804b851d9223007c2d0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.75', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mrc/sim_ws/build/particle_filter', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrc/sim_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[14.180040] (-) TimerEvent: {}
+[14.281815] (-) TimerEvent: {}
+[14.384252] (-) TimerEvent: {}
+[14.484870] (-) TimerEvent: {}
+[14.585847] (-) TimerEvent: {}
+[14.689274] (-) TimerEvent: {}
+[14.792611] (-) TimerEvent: {}
+[14.896534] (-) TimerEvent: {}
+[15.001753] (-) TimerEvent: {}
+[15.106520] (-) TimerEvent: {}
+[15.207711] (-) TimerEvent: {}
+[15.315934] (-) TimerEvent: {}
+[15.417109] (-) TimerEvent: {}
+[15.517634] (-) TimerEvent: {}
+[15.618311] (-) TimerEvent: {}
+[15.689008] (pure_pursuit) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[15.719586] (-) TimerEvent: {}
+[15.821179] (-) TimerEvent: {}
+[15.922857] (-) TimerEvent: {}
+[16.025917] (-) TimerEvent: {}
+[16.133877] (particle_filter) StdoutLine: {'line': b'running egg_info\n'}
+[16.134388] (-) TimerEvent: {}
+[16.147146] (particle_filter) StdoutLine: {'line': b'writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO\n'}
+[16.149547] (particle_filter) StdoutLine: {'line': b'writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt\n'}
+[16.156194] (particle_filter) StdoutLine: {'line': b'writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt\n'}
+[16.162051] (particle_filter) StdoutLine: {'line': b'writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt\n'}
+[16.163429] (particle_filter) StdoutLine: {'line': b'writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt\n'}
+[16.234621] (-) TimerEvent: {}
+[16.344401] (-) TimerEvent: {}
+[16.445871] (-) TimerEvent: {}
+[16.482981] (particle_filter) StdoutLine: {'line': b"reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'\n"}
+[16.509350] (particle_filter) StdoutLine: {'line': b"writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'\n"}
+[16.516547] (particle_filter) StdoutLine: {'line': b'running build\n'}
+[16.517011] (particle_filter) StdoutLine: {'line': b'running build_py\n'}
+[16.517242] (particle_filter) StdoutLine: {'line': b'running install\n'}
+[16.527352] (particle_filter) StdoutLine: {'line': b'running install_lib\n'}
+[16.550650] (particle_filter) StdoutLine: {'line': b'running install_data\n'}
+[16.551240] (-) TimerEvent: {}
+[16.557790] (particle_filter) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.576873] (particle_filter) StdoutLine: {'line': b"removing '/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info' (and everything under it)\n"}
+[16.602807] (particle_filter) StdoutLine: {'line': b'Copying ../../build/particle_filter/particle_filter.egg-info to /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info\n'}
+[16.615741] (particle_filter) StdoutLine: {'line': b'running install_scripts\n'}
+[16.652096] (-) TimerEvent: {}
+[16.754583] (-) TimerEvent: {}
+[16.823079] (particle_filter) StdoutLine: {'line': b'Installing particle_filter script to /home/mrc/sim_ws/install/particle_filter/lib/particle_filter\n'}
+[16.829917] (particle_filter) StdoutLine: {'line': b"writing list of installed files to '/home/mrc/sim_ws/build/particle_filter/install.log'\n"}
+[16.860843] (-) TimerEvent: {}
+[16.961769] (-) TimerEvent: {}
+[17.044687] (particle_filter) CommandEnded: {'returncode': 0}
+[17.061983] (-) TimerEvent: {}
+[17.163035] (-) TimerEvent: {}
+[17.213415] (particle_filter) JobEnded: {'identifier': 'particle_filter', 'rc': 0}
+[17.215236] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[17.272241] (-) TimerEvent: {}
+[17.283286] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'cmake'}
+[17.324851] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'build'}
+[17.325498] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mrc/sim_ws/build/safety_node', '--', '-j2', '-l2'], 'cwd': '/home/mrc/sim_ws/build/safety_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mrc'), ('LC_TIME', 'hr_HR.UTF-8'), ('SSH_AGENT_PID', '1471'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mrc'), ('OLDPWD', '/home/mrc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mrc'), ('JOURNAL_STREAM', '8:53877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mrc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '891d5cc2133f4804b851d9223007c2d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mrc/sim_ws/build/safety_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[17.372852] (-) TimerEvent: {}
+[17.476590] (-) TimerEvent: {}
+[17.585032] (-) TimerEvent: {}
+[17.685846] (-) TimerEvent: {}
+[17.749632] (safety_node) CommandEnded: {'returncode': 0}
+[17.761034] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'install'}
+[17.762095] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mrc/sim_ws/build/safety_node'], 'cwd': '/home/mrc/sim_ws/build/safety_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mrc'), ('LC_TIME', 'hr_HR.UTF-8'), ('SSH_AGENT_PID', '1471'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mrc'), ('OLDPWD', '/home/mrc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mrc'), ('JOURNAL_STREAM', '8:53877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mrc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '891d5cc2133f4804b851d9223007c2d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mrc/sim_ws/build/safety_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[17.793128] (-) TimerEvent: {}
+[17.859171] (pure_pursuit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[17.875623] (safety_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.880514] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.sh\n'}
+[17.880828] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv\n'}
+[17.883027] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node\n'}
+[17.883531] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py\n'}
+[17.895676] (-) TimerEvent: {}
+[17.926956] (pure_pursuit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[18.000101] (-) TimerEvent: {}
+[18.101644] (-) TimerEvent: {}
+[18.196942] (safety_node) StdoutLine: {'line': b"Listing '/home/mrc/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node'...\n"}
+[18.204368] (-) TimerEvent: {}
+[18.218598] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/lib/safety_node/safety_node.py\n'}
+[18.224808] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node\n'}
+[18.232926] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node\n'}
+[18.233345] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh\n'}
+[18.233589] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv\n'}
+[18.233714] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/path.sh\n'}
+[18.233909] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/environment/path.dsv\n'}
+[18.235818] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/local_setup.bash\n'}
+[18.240977] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/local_setup.sh\n'}
+[18.271995] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/local_setup.zsh\n'}
+[18.280858] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/local_setup.dsv\n'}
+[18.281154] (safety_node) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/safety_node/share/safety_node/package.dsv\n'}
+[18.281326] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node\n'}
+[18.281481] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake\n'}
+[18.281725] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake\n'}
+[18.281896] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/safety_node/share/safety_node/package.xml\n'}
+[18.282051] (safety_node) CommandEnded: {'returncode': 0}
+[18.314505] (-) TimerEvent: {}
+[18.417173] (-) TimerEvent: {}
+[18.476943] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 0}
+[18.480778] (wall_follow) JobStarted: {'identifier': 'wall_follow'}
+[18.520703] (-) TimerEvent: {}
+[18.546879] (wall_follow) JobProgress: {'identifier': 'wall_follow', 'progress': 'cmake'}
+[18.558725] (wall_follow) JobProgress: {'identifier': 'wall_follow', 'progress': 'build'}
+[18.561869] (wall_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mrc/sim_ws/build/wall_follow', '--', '-j2', '-l2'], 'cwd': '/home/mrc/sim_ws/build/wall_follow', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mrc'), ('LC_TIME', 'hr_HR.UTF-8'), ('SSH_AGENT_PID', '1471'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mrc'), ('OLDPWD', '/home/mrc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mrc'), ('JOURNAL_STREAM', '8:53877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mrc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '891d5cc2133f4804b851d9223007c2d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mrc/sim_ws/build/wall_follow'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[18.621661] (-) TimerEvent: {}
+[18.738128] (-) TimerEvent: {}
+[18.798153] (pure_pursuit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[18.818460] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.838920] (-) TimerEvent: {}
+[18.939912] (-) TimerEvent: {}
+[19.042885] (-) TimerEvent: {}
+[19.137653] (wall_follow) CommandEnded: {'returncode': 0}
+[19.140393] (wall_follow) JobProgress: {'identifier': 'wall_follow', 'progress': 'install'}
+[19.147643] (wall_follow) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mrc/sim_ws/build/wall_follow'], 'cwd': '/home/mrc/sim_ws/build/wall_follow', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mrc'), ('LC_TIME', 'hr_HR.UTF-8'), ('SSH_AGENT_PID', '1471'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mrc'), ('OLDPWD', '/home/mrc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mrc'), ('JOURNAL_STREAM', '8:53877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mrc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '891d5cc2133f4804b851d9223007c2d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mrc/sim_ws/build/wall_follow'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[19.149439] (-) TimerEvent: {}
+[19.249930] (-) TimerEvent: {}
+[19.287817] (wall_follow) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.290954] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh\n'}
+[19.295285] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv\n'}
+[19.295537] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow\n'}
+[19.295712] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py\n'}
+[19.351230] (-) TimerEvent: {}
+[19.458438] (-) TimerEvent: {}
+[19.550626] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[19.558910] (-) TimerEvent: {}
+[19.624515] (wall_follow) StdoutLine: {'line': b"Listing '/home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...\n"}
+[19.659480] (-) TimerEvent: {}
+[19.672174] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py\n'}
+[19.680462] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow\n'}
+[19.680695] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow\n'}
+[19.680802] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh\n'}
+[19.680912] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv\n'}
+[19.681003] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/path.sh\n'}
+[19.681147] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv\n'}
+[19.681241] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.bash\n'}
+[19.681378] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.sh\n'}
+[19.681600] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh\n'}
+[19.681782] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv\n'}
+[19.682593] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/package.dsv\n'}
+[19.684828] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow\n'}
+[19.685056] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake\n'}
+[19.685270] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake\n'}
+[19.685585] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /home/mrc/sim_ws/install/wall_follow/share/wall_follow/package.xml\n'}
+[19.696299] (wall_follow) CommandEnded: {'returncode': 0}
+[19.722377] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[19.722721] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[19.760294] (-) TimerEvent: {}
+[19.807817] (pure_pursuit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[19.865154] (-) TimerEvent: {}
+[19.960133] (wall_follow) JobEnded: {'identifier': 'wall_follow', 'rc': 0}
+[19.965708] (-) TimerEvent: {}
+[20.071798] (-) TimerEvent: {}
+[20.173350] (-) TimerEvent: {}
+[20.276516] (-) TimerEvent: {}
+[20.319989] (pure_pursuit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[20.321284] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.377153] (-) TimerEvent: {}
+[20.477999] (-) TimerEvent: {}
+[20.578719] (-) TimerEvent: {}
+[20.679235] (-) TimerEvent: {}
+[20.780540] (-) TimerEvent: {}
+[20.864772] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.881336] (-) TimerEvent: {}
+[20.950816] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.957914] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.981943] (-) TimerEvent: {}
+[21.032714] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[21.083046] (-) TimerEvent: {}
+[21.184643] (-) TimerEvent: {}
+[21.256304] (pure_pursuit) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[21.256744] (pure_pursuit) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[21.285489] (-) TimerEvent: {}
+[21.386655] (-) TimerEvent: {}
+[21.490532] (-) TimerEvent: {}
+[21.593373] (-) TimerEvent: {}
+[21.694103] (-) TimerEvent: {}
+[21.796524] (-) TimerEvent: {}
+[21.897432] (-) TimerEvent: {}
+[21.998135] (-) TimerEvent: {}
+[22.099382] (-) TimerEvent: {}
+[22.202354] (-) TimerEvent: {}
+[22.318251] (-) TimerEvent: {}
+[22.422998] (-) TimerEvent: {}
+[22.466766] (pure_pursuit) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[22.524778] (-) TimerEvent: {}
+[22.625879] (-) TimerEvent: {}
+[22.729264] (-) TimerEvent: {}
+[22.833261] (-) TimerEvent: {}
+[22.942329] (-) TimerEvent: {}
+[22.970477] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.045952] (-) TimerEvent: {}
+[23.046818] (pure_pursuit) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[23.147597] (-) TimerEvent: {}
+[23.248364] (-) TimerEvent: {}
+[23.349479] (-) TimerEvent: {}
+[23.451653] (-) TimerEvent: {}
+[23.552539] (-) TimerEvent: {}
+[23.653073] (-) TimerEvent: {}
+[23.672753] (pure_pursuit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[23.753823] (-) TimerEvent: {}
+[23.855270] (-) TimerEvent: {}
+[23.877880] (pure_pursuit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[23.955839] (-) TimerEvent: {}
+[24.056680] (-) TimerEvent: {}
+[24.157847] (-) TimerEvent: {}
+[24.259765] (-) TimerEvent: {}
+[24.360535] (-) TimerEvent: {}
+[24.367344] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[24.461052] (-) TimerEvent: {}
+[24.562736] (-) TimerEvent: {}
+[24.663551] (-) TimerEvent: {}
+[24.765193] (-) TimerEvent: {}
+[24.866203] (-) TimerEvent: {}
+[24.949561] (pure_pursuit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[24.964300] (pure_pursuit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[24.967066] (-) TimerEvent: {}
+[24.978822] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[25.067946] (-) TimerEvent: {}
+[25.170583] (-) TimerEvent: {}
+[25.272014] (-) TimerEvent: {}
+[25.372986] (-) TimerEvent: {}
+[25.379067] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[25.380012] (pure_pursuit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[25.473844] (-) TimerEvent: {}
+[25.575253] (-) TimerEvent: {}
+[25.676146] (-) TimerEvent: {}
+[25.757337] (pure_pursuit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[25.759205] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[25.776994] (-) TimerEvent: {}
+[25.877985] (-) TimerEvent: {}
+[25.980032] (-) TimerEvent: {}
+[26.084995] (-) TimerEvent: {}
+[26.087925] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[26.089215] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[26.185247] (-) TimerEvent: {}
+[26.286985] (-) TimerEvent: {}
+[26.390143] (-) TimerEvent: {}
+[26.491881] (-) TimerEvent: {}
+[26.513994] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[26.520455] (pure_pursuit) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[26.592681] (-) TimerEvent: {}
+[26.693613] (-) TimerEvent: {}
+[26.794793] (-) TimerEvent: {}
+[26.897650] (-) TimerEvent: {}
+[26.998763] (-) TimerEvent: {}
+[27.101662] (-) TimerEvent: {}
+[27.203930] (-) TimerEvent: {}
+[27.305353] (-) TimerEvent: {}
+[27.406149] (-) TimerEvent: {}
+[27.425759] (pure_pursuit) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[27.440286] (pure_pursuit) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[27.506764] (-) TimerEvent: {}
+[27.607630] (-) TimerEvent: {}
+[27.644900] (pure_pursuit) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[27.708072] (-) TimerEvent: {}
+[27.809062] (-) TimerEvent: {}
+[27.911327] (-) TimerEvent: {}
+[28.013167] (-) TimerEvent: {}
+[28.115784] (-) TimerEvent: {}
+[28.213155] (pure_pursuit) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[28.216351] (-) TimerEvent: {}
+[28.317209] (-) TimerEvent: {}
+[28.418137] (-) TimerEvent: {}
+[28.454705] (pure_pursuit) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[28.523007] (-) TimerEvent: {}
+[28.631306] (-) TimerEvent: {}
+[28.733045] (-) TimerEvent: {}
+[28.834136] (-) TimerEvent: {}
+[28.928745] (pure_pursuit) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[28.934592] (-) TimerEvent: {}
+[29.036922] (-) TimerEvent: {}
+[29.140846] (-) TimerEvent: {}
+[29.243491] (-) TimerEvent: {}
+[29.344488] (-) TimerEvent: {}
+[29.371801] (pure_pursuit) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[29.446182] (-) TimerEvent: {}
+[29.547155] (-) TimerEvent: {}
+[29.647944] (-) TimerEvent: {}
+[29.749474] (-) TimerEvent: {}
+[29.850564] (-) TimerEvent: {}
+[29.951888] (-) TimerEvent: {}
+[30.054996] (-) TimerEvent: {}
+[30.161054] (-) TimerEvent: {}
+[30.262345] (-) TimerEvent: {}
+[30.369833] (-) TimerEvent: {}
+[30.471246] (-) TimerEvent: {}
+[30.572204] (-) TimerEvent: {}
+[30.673896] (-) TimerEvent: {}
+[30.774657] (-) TimerEvent: {}
+[30.877766] (-) TimerEvent: {}
+[30.979290] (-) TimerEvent: {}
+[31.081136] (-) TimerEvent: {}
+[31.183811] (-) TimerEvent: {}
+[31.285457] (-) TimerEvent: {}
+[31.387020] (-) TimerEvent: {}
+[31.489323] (-) TimerEvent: {}
+[31.592041] (-) TimerEvent: {}
+[31.681777] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[31.692218] (-) TimerEvent: {}
+[31.792757] (-) TimerEvent: {}
+[31.894267] (-) TimerEvent: {}
+[31.995069] (-) TimerEvent: {}
+[32.095614] (-) TimerEvent: {}
+[32.201030] (-) TimerEvent: {}
+[32.279115] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[32.301194] (-) TimerEvent: {}
+[32.301759] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[32.302580] (pure_pursuit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mrc/sim_ws/src/f1tenth_lab6_template/pure_pursuit/include\n'}
+[32.302967] (pure_pursuit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[32.307397] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[32.307854] (pure_pursuit) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[32.311055] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[32.316583] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[32.319400] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[32.323800] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[32.324249] (pure_pursuit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[32.328641] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[32.358431] (pure_pursuit) StdoutLine: {'line': b'-- Configuring done\n'}
+[32.401822] (-) TimerEvent: {}
+[32.487017] (pure_pursuit) StdoutLine: {'line': b'-- Generating done\n'}
+[32.502607] (-) TimerEvent: {}
+[32.517622] (pure_pursuit) StdoutLine: {'line': b'-- Build files have been written to: /home/mrc/sim_ws/build/pure_pursuit\n'}
+[32.577770] (pure_pursuit) CommandEnded: {'returncode': 0}
+[32.579334] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'build'}
+[32.597823] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mrc/sim_ws/build/pure_pursuit', '--', '-j2', '-l2'], 'cwd': '/home/mrc/sim_ws/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mrc'), ('LC_TIME', 'hr_HR.UTF-8'), ('SSH_AGENT_PID', '1471'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mrc'), ('OLDPWD', '/home/mrc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mrc'), ('JOURNAL_STREAM', '8:53877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mrc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '891d5cc2133f4804b851d9223007c2d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mrc/sim_ws/build/pure_pursuit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[32.605429] (-) TimerEvent: {}
+[32.709957] (-) TimerEvent: {}
+[32.810748] (-) TimerEvent: {}
+[32.861558] (pure_pursuit) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pure_pursuit_node\x1b[0m\n'}
+[32.910982] (-) TimerEvent: {}
+[33.013357] (-) TimerEvent: {}
+[33.119537] (-) TimerEvent: {}
+[33.220590] (-) TimerEvent: {}
+[33.321329] (-) TimerEvent: {}
+[33.421852] (-) TimerEvent: {}
+[33.523571] (-) TimerEvent: {}
+[33.629912] (-) TimerEvent: {}
+[33.730928] (-) TimerEvent: {}
+[33.831759] (-) TimerEvent: {}
+[33.846377] (pure_pursuit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o\x1b[0m\n'}
+[33.931985] (-) TimerEvent: {}
+[34.037883] (-) TimerEvent: {}
+[34.142334] (-) TimerEvent: {}
+[34.243533] (-) TimerEvent: {}
+[34.345781] (-) TimerEvent: {}
+[34.449166] (-) TimerEvent: {}
+[34.549844] (-) TimerEvent: {}
+[34.653136] (-) TimerEvent: {}
+[34.755952] (-) TimerEvent: {}
+[34.857242] (-) TimerEvent: {}
+[34.957730] (-) TimerEvent: {}
+[35.060467] (-) TimerEvent: {}
+[35.161240] (-) TimerEvent: {}
+[35.263067] (-) TimerEvent: {}
+[35.364972] (-) TimerEvent: {}
+[35.466335] (-) TimerEvent: {}
+[35.567212] (-) TimerEvent: {}
+[35.668767] (-) TimerEvent: {}
+[35.770357] (-) TimerEvent: {}
+[35.870817] (-) TimerEvent: {}
+[35.975593] (-) TimerEvent: {}
+[36.076247] (-) TimerEvent: {}
+[36.177380] (-) TimerEvent: {}
+[36.278946] (-) TimerEvent: {}
+[36.380003] (-) TimerEvent: {}
+[36.481334] (-) TimerEvent: {}
+[36.582931] (-) TimerEvent: {}
+[36.684627] (-) TimerEvent: {}
+[36.785783] (-) TimerEvent: {}
+[36.887418] (-) TimerEvent: {}
+[36.988038] (-) TimerEvent: {}
+[37.088648] (-) TimerEvent: {}
+[37.189494] (-) TimerEvent: {}
+[37.290143] (-) TimerEvent: {}
+[37.390825] (-) TimerEvent: {}
+[37.491561] (-) TimerEvent: {}
+[37.592769] (-) TimerEvent: {}
+[37.693536] (-) TimerEvent: {}
+[37.794516] (-) TimerEvent: {}
+[37.895227] (-) TimerEvent: {}
+[37.996790] (-) TimerEvent: {}
+[38.101836] (-) TimerEvent: {}
+[38.204378] (-) TimerEvent: {}
+[38.305161] (-) TimerEvent: {}
+[38.406101] (-) TimerEvent: {}
+[38.507667] (-) TimerEvent: {}
+[38.612939] (-) TimerEvent: {}
+[38.713536] (-) TimerEvent: {}
+[38.814714] (-) TimerEvent: {}
+[38.915405] (-) TimerEvent: {}
+[39.016181] (-) TimerEvent: {}
+[39.117475] (-) TimerEvent: {}
+[39.218235] (-) TimerEvent: {}
+[39.318881] (-) TimerEvent: {}
+[39.420274] (-) TimerEvent: {}
+[39.523318] (-) TimerEvent: {}
+[39.624809] (-) TimerEvent: {}
+[39.734036] (-) TimerEvent: {}
+[39.835215] (-) TimerEvent: {}
+[39.935927] (-) TimerEvent: {}
+[40.036691] (-) TimerEvent: {}
+[40.137841] (-) TimerEvent: {}
+[40.242205] (-) TimerEvent: {}
+[40.342890] (-) TimerEvent: {}
+[40.443714] (-) TimerEvent: {}
+[40.545680] (-) TimerEvent: {}
+[40.646652] (-) TimerEvent: {}
+[40.747708] (-) TimerEvent: {}
+[40.849468] (-) TimerEvent: {}
+[40.950436] (-) TimerEvent: {}
+[41.051331] (-) TimerEvent: {}
+[41.152048] (-) TimerEvent: {}
+[41.252624] (-) TimerEvent: {}
+[41.353517] (-) TimerEvent: {}
+[41.455960] (-) TimerEvent: {}
+[41.557653] (-) TimerEvent: {}
+[41.658471] (-) TimerEvent: {}
+[41.760586] (-) TimerEvent: {}
+[41.861377] (-) TimerEvent: {}
+[41.964386] (-) TimerEvent: {}
+[42.065858] (-) TimerEvent: {}
+[42.166405] (-) TimerEvent: {}
+[42.267558] (-) TimerEvent: {}
+[42.368348] (-) TimerEvent: {}
+[42.469162] (-) TimerEvent: {}
+[42.570579] (-) TimerEvent: {}
+[42.671280] (-) TimerEvent: {}
+[42.772068] (-) TimerEvent: {}
+[42.872801] (-) TimerEvent: {}
+[42.975583] (-) TimerEvent: {}
+[43.076719] (-) TimerEvent: {}
+[43.177667] (-) TimerEvent: {}
+[43.278211] (-) TimerEvent: {}
+[43.379249] (-) TimerEvent: {}
+[43.485088] (-) TimerEvent: {}
+[43.586430] (-) TimerEvent: {}
+[43.687824] (-) TimerEvent: {}
+[43.788858] (-) TimerEvent: {}
+[43.889669] (-) TimerEvent: {}
+[43.990906] (-) TimerEvent: {}
+[44.091573] (-) TimerEvent: {}
+[44.192248] (-) TimerEvent: {}
+[44.293559] (-) TimerEvent: {}
+[44.394595] (-) TimerEvent: {}
+[44.495484] (-) TimerEvent: {}
+[44.596213] (-) TimerEvent: {}
+[44.697198] (-) TimerEvent: {}
+[44.798216] (-) TimerEvent: {}
+[44.899396] (-) TimerEvent: {}
+[45.003956] (-) TimerEvent: {}
+[45.105435] (-) TimerEvent: {}
+[45.206197] (-) TimerEvent: {}
+[45.306966] (-) TimerEvent: {}
+[45.407605] (-) TimerEvent: {}
+[45.508889] (-) TimerEvent: {}
+[45.610417] (-) TimerEvent: {}
+[45.712197] (-) TimerEvent: {}
+[45.813361] (-) TimerEvent: {}
+[45.914155] (-) TimerEvent: {}
+[46.019848] (-) TimerEvent: {}
+[46.122384] (-) TimerEvent: {}
+[46.223076] (-) TimerEvent: {}
+[46.323951] (-) TimerEvent: {}
+[46.424561] (-) TimerEvent: {}
+[46.526391] (-) TimerEvent: {}
+[46.632177] (-) TimerEvent: {}
+[46.733047] (-) TimerEvent: {}
+[46.833502] (-) TimerEvent: {}
+[46.934921] (-) TimerEvent: {}
+[47.035951] (-) TimerEvent: {}
+[47.137187] (-) TimerEvent: {}
+[47.239126] (-) TimerEvent: {}
+[47.340985] (-) TimerEvent: {}
+[47.444589] (-) TimerEvent: {}
+[47.545694] (-) TimerEvent: {}
+[47.646316] (-) TimerEvent: {}
+[47.747628] (-) TimerEvent: {}
+[47.848869] (-) TimerEvent: {}
+[47.949609] (-) TimerEvent: {}
+[48.050636] (-) TimerEvent: {}
+[48.151545] (-) TimerEvent: {}
+[48.252799] (-) TimerEvent: {}
+[48.353594] (-) TimerEvent: {}
+[48.455438] (-) TimerEvent: {}
+[48.516550] (pure_pursuit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mrc/sim_ws/src/f1tenth_lab6_template/pure_pursuit/src/pure_pursuit_node.cpp:32:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[48.517355] (pure_pursuit) StderrLine: {'line': b'   32 | ack(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[48.521466] (pure_pursuit) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[48.522086] (pure_pursuit) StderrLine: {'line': b'\n'}
+[48.522204] (pure_pursuit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[48.529542] (pure_pursuit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mrc/sim_ws/src/f1tenth_lab6_template/pure_pursuit/src/pure_pursuit_node.cpp:10\x1b[m\x1b[K:\n'}
+[48.530539] (pure_pursuit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:114:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[48.530892] (pure_pursuit) StderrLine: {'line': b'  114 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[48.531074] (pure_pursuit) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[48.531239] (pure_pursuit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mrc/sim_ws/src/f1tenth_lab6_template/pure_pursuit/src/pure_pursuit_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::pose_callback(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[48.531703] (pure_pursuit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mrc/sim_ws/src/f1tenth_lab6_template/pure_pursuit/src/pure_pursuit_node.cpp:32:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpose_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[48.532078] (pure_pursuit) StderrLine: {'line': b'   32 |   void pose_callback(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg\x1b[m\x1b[K)\n'}
+[48.532661] (pure_pursuit) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[48.533756] (pure_pursuit) StderrLine: {'line': b'\n'}
+[48.558008] (-) TimerEvent: {}
+[48.658895] (-) TimerEvent: {}
+[48.759742] (-) TimerEvent: {}
+[48.860564] (-) TimerEvent: {}
+[48.961252] (-) TimerEvent: {}
+[49.063851] (-) TimerEvent: {}
+[49.167477] (-) TimerEvent: {}
+[49.300477] (-) TimerEvent: {}
+[49.401171] (-) TimerEvent: {}
+[49.504374] (-) TimerEvent: {}
+[49.605264] (-) TimerEvent: {}
+[49.706007] (-) TimerEvent: {}
+[49.806861] (-) TimerEvent: {}
+[49.909927] (-) TimerEvent: {}
+[50.010702] (-) TimerEvent: {}
+[50.111363] (-) TimerEvent: {}
+[50.211899] (-) TimerEvent: {}
+[50.313083] (-) TimerEvent: {}
+[50.413901] (-) TimerEvent: {}
+[50.514815] (-) TimerEvent: {}
+[50.615653] (-) TimerEvent: {}
+[50.722335] (-) TimerEvent: {}
+[50.823020] (-) TimerEvent: {}
+[50.925113] (-) TimerEvent: {}
+[51.031098] (-) TimerEvent: {}
+[51.132505] (-) TimerEvent: {}
+[51.236428] (-) TimerEvent: {}
+[51.352931] (-) TimerEvent: {}
+[51.453456] (-) TimerEvent: {}
+[51.554278] (-) TimerEvent: {}
+[51.655660] (-) TimerEvent: {}
+[51.758414] (-) TimerEvent: {}
+[51.859427] (-) TimerEvent: {}
+[51.961484] (-) TimerEvent: {}
+[52.067391] (-) TimerEvent: {}
+[52.168465] (-) TimerEvent: {}
+[52.270124] (-) TimerEvent: {}
+[52.371351] (-) TimerEvent: {}
+[52.473699] (-) TimerEvent: {}
+[52.574970] (-) TimerEvent: {}
+[52.676426] (-) TimerEvent: {}
+[52.783856] (-) TimerEvent: {}
+[52.885802] (-) TimerEvent: {}
+[52.986509] (-) TimerEvent: {}
+[53.090673] (-) TimerEvent: {}
+[53.196344] (-) TimerEvent: {}
+[53.298511] (-) TimerEvent: {}
+[53.399542] (-) TimerEvent: {}
+[53.415367] (pure_pursuit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pure_pursuit_node\x1b[0m\n'}
+[53.501094] (-) TimerEvent: {}
+[53.601750] (-) TimerEvent: {}
+[53.703122] (-) TimerEvent: {}
+[53.803826] (-) TimerEvent: {}
+[53.912111] (-) TimerEvent: {}
+[54.018163] (-) TimerEvent: {}
+[54.124008] (-) TimerEvent: {}
+[54.228703] (-) TimerEvent: {}
+[54.329724] (-) TimerEvent: {}
+[54.357323] (pure_pursuit) StdoutLine: {'line': b'[100%] Built target pure_pursuit_node\n'}
+[54.433977] (-) TimerEvent: {}
+[54.474045] (pure_pursuit) CommandEnded: {'returncode': 0}
+[54.482954] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'install'}
+[54.483105] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mrc/sim_ws/build/pure_pursuit'], 'cwd': '/home/mrc/sim_ws/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mrc'), ('LC_TIME', 'hr_HR.UTF-8'), ('SSH_AGENT_PID', '1471'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mrc'), ('OLDPWD', '/home/mrc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mrc'), ('JOURNAL_STREAM', '8:53877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mrc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mrc-foxy:@/tmp/.ICE-unix/1506,unix/mrc-foxy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '891d5cc2133f4804b851d9223007c2d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/104e92a3_2b8e_4bb1_8ecf_fa33d95abe5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mrc/sim_ws/build/pure_pursuit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[54.544937] (-) TimerEvent: {}
+[54.599141] (pure_pursuit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[54.599799] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node\n'}
+[54.611192] (pure_pursuit) StdoutLine: {'line': b'-- Set runtime path of "/home/mrc/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node" to ""\n'}
+[54.611726] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh\n'}
+[54.612089] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv\n'}
+[54.612305] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit\n'}
+[54.612488] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py\n'}
+[54.647182] (-) TimerEvent: {}
+[54.751932] (-) TimerEvent: {}
+[54.813046] (pure_pursuit) StdoutLine: {'line': b"Listing '/home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...\n"}
+[54.813394] (pure_pursuit) StdoutLine: {'line': b"Compiling '/home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py'...\n"}
+[54.834473] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py\n'}
+[54.838105] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit\n'}
+[54.838995] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit\n'}
+[54.840174] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh\n'}
+[54.843232] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv\n'}
+[54.844948] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh\n'}
+[54.845244] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv\n'}
+[54.848262] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash\n'}
+[54.851756] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh\n'}
+[54.851992] (-) TimerEvent: {}
+[54.852206] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh\n'}
+[54.852404] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv\n'}
+[54.852500] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv\n'}
+[54.852590] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit\n'}
+[54.856591] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake\n'}
+[54.857278] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake\n'}
+[54.858672] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/mrc/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml\n'}
+[54.888825] (pure_pursuit) CommandEnded: {'returncode': 0}
+[54.954682] (-) TimerEvent: {}
+[55.005070] (pure_pursuit) JobEnded: {'identifier': 'pure_pursuit', 'rc': 0}
+[55.017159] (-) EventReactorShutdown: {}

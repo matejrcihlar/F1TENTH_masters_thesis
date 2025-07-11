@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.001570] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.001681] (-) JobUnselected: {'identifier': 'gap_follow'}
+[0.001730] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.001771] (-) JobUnselected: {'identifier': 'rrt_package'}
+[0.001809] (-) JobUnselected: {'identifier': 'safety_node'}
+[0.001847] (-) JobUnselected: {'identifier': 'wall_follow'}
+[0.001890] (particle_filter) JobQueued: {'identifier': 'particle_filter', 'dependencies': OrderedDict()}
+[0.007730] (particle_filter) JobStarted: {'identifier': 'particle_filter'}
+[0.100379] (-) TimerEvent: {}
+[0.208155] (-) TimerEvent: {}
+[0.325837] (-) TimerEvent: {}
+[0.430337] (-) TimerEvent: {}
+[0.559718] (-) TimerEvent: {}
+[0.660747] (-) TimerEvent: {}
+[0.770481] (-) TimerEvent: {}
+[0.984026] (-) TimerEvent: {}
+[1.091905] (-) TimerEvent: {}
+[1.193447] (-) TimerEvent: {}
+[1.296390] (-) TimerEvent: {}
+[1.398067] (-) TimerEvent: {}
+[1.499232] (-) TimerEvent: {}
+[1.601376] (-) TimerEvent: {}
+[1.702356] (-) TimerEvent: {}
+[1.803000] (-) TimerEvent: {}
+[1.905045] (-) TimerEvent: {}
+[2.018206] (-) TimerEvent: {}
+[2.120063] (-) TimerEvent: {}
+[2.224167] (-) TimerEvent: {}
+[2.324845] (-) TimerEvent: {}
+[2.436192] (-) TimerEvent: {}
+[2.607259] (-) TimerEvent: {}
+[2.716163] (-) TimerEvent: {}
+[2.817163] (-) TimerEvent: {}
+[2.921356] (-) TimerEvent: {}
+[3.026373] (-) TimerEvent: {}
+[3.130027] (-) TimerEvent: {}
+[3.231224] (-) TimerEvent: {}
+[3.344793] (-) TimerEvent: {}
+[3.453046] (-) TimerEvent: {}
+[3.559971] (-) TimerEvent: {}
+[3.664279] (-) TimerEvent: {}
+[3.781359] (-) TimerEvent: {}
+[3.884753] (-) TimerEvent: {}
+[3.990492] (-) TimerEvent: {}
+[4.123597] (-) TimerEvent: {}
+[4.225694] (-) TimerEvent: {}
+[4.334013] (-) TimerEvent: {}
+[4.486575] (-) TimerEvent: {}
+[4.597387] (-) TimerEvent: {}
+[4.706288] (-) TimerEvent: {}
+[4.809106] (-) TimerEvent: {}
+[4.918619] (-) TimerEvent: {}
+[5.026090] (-) TimerEvent: {}
+[5.126742] (-) TimerEvent: {}
+[5.233406] (-) TimerEvent: {}
+[5.341421] (-) TimerEvent: {}
+[5.459939] (-) TimerEvent: {}
+[5.563806] (-) TimerEvent: {}
+[5.664410] (-) TimerEvent: {}
+[5.765863] (-) TimerEvent: {}
+[5.886380] (-) TimerEvent: {}
+[5.989847] (-) TimerEvent: {}
+[6.107447] (-) TimerEvent: {}
+[6.219493] (-) TimerEvent: {}
+[6.336050] (-) TimerEvent: {}
+[6.448183] (-) TimerEvent: {}
+[6.551036] (-) TimerEvent: {}
+[6.655603] (-) TimerEvent: {}
+[6.763649] (-) TimerEvent: {}
+[6.867520] (-) TimerEvent: {}
+[6.971754] (-) TimerEvent: {}
+[7.073450] (-) TimerEvent: {}
+[7.179585] (-) TimerEvent: {}
+[7.318489] (-) TimerEvent: {}
+[7.421406] (-) TimerEvent: {}
+[7.522506] (-) TimerEvent: {}
+[7.625609] (-) TimerEvent: {}
+[7.731246] (-) TimerEvent: {}
+[7.834718] (-) TimerEvent: {}
+[7.938473] (-) TimerEvent: {}
+[8.043627] (-) TimerEvent: {}
+[8.151109] (-) TimerEvent: {}
+[8.257624] (-) TimerEvent: {}
+[8.363039] (-) TimerEvent: {}
+[8.475709] (-) TimerEvent: {}
+[8.576967] (-) TimerEvent: {}
+[8.699077] (-) TimerEvent: {}
+[8.802240] (-) TimerEvent: {}
+[8.909319] (-) TimerEvent: {}
+[9.011366] (-) TimerEvent: {}
+[9.118955] (-) TimerEvent: {}
+[9.222944] (-) TimerEvent: {}
+[9.328854] (-) TimerEvent: {}
+[9.430548] (-) TimerEvent: {}
+[9.508014] (particle_filter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/particle_filter', 'build', '--build-base', '/home/mrc/sim_ws/build/particle_filter/build', 'install', '--record', '/home/mrc/sim_ws/build/particle_filter/install.log', '--install-scripts', '$base/lib/particle_filter', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mrc/sim_ws/src/particle_filter', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mrc', 'LC_TIME': 'hr_HR.UTF-8', 'SSH_AGENT_PID': '2731', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/mrc', 'OLDPWD': '/home/mrc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'MANAGERPID': '2636', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3655', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/mrc/sim_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'mrc', 'JOURNAL_STREAM': '8:123632', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mrc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/mrc-foxy:@/tmp/.ICE-unix/2766,unix/mrc-foxy:/tmp/.ICE-unix/2766', 'INVOCATION_ID': 'af874be8b6a041988932cab5d0743096', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mrc/sim_ws/install/wall_follow:/home/mrc/sim_ws/install/safety_node:/home/mrc/sim_ws/install/rrt_package:/home/mrc/sim_ws/install/pure_pursuit:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/gap_follow:/home/mrc/sim_ws/install/f1tenth_gym_ros:/home/mrc/sim_ws/install/RRT_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d311c4a1-deed-459a-8748-494fdd57e5eb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mrc/sim_ws/build/particle_filter', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrc/sim_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages:/home/mrc/sim_ws/install/safety_node/lib/python3.8/site-packages:/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages:/home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages:/home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/mrc/sim_ws/install/RRT_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/mrc/sim_ws/install/wall_follow:/home/mrc/sim_ws/install/safety_node:/home/mrc/sim_ws/install/pure_pursuit:/home/mrc/sim_ws/install/gap_follow'}, 'shell': False}
+[9.603431] (-) TimerEvent: {}
+[9.710473] (-) TimerEvent: {}
+[9.819416] (-) TimerEvent: {}
+[9.920645] (-) TimerEvent: {}
+[10.026441] (-) TimerEvent: {}
+[10.135608] (-) TimerEvent: {}
+[10.241166] (-) TimerEvent: {}
+[10.347399] (-) TimerEvent: {}
+[10.506943] (-) TimerEvent: {}
+[10.610761] (-) TimerEvent: {}
+[10.715539] (-) TimerEvent: {}
+[10.857591] (-) TimerEvent: {}
+[10.959756] (-) TimerEvent: {}
+[11.087082] (-) TimerEvent: {}
+[11.220298] (-) TimerEvent: {}
+[11.328411] (-) TimerEvent: {}
+[11.433949] (-) TimerEvent: {}
+[11.540470] (-) TimerEvent: {}
+[11.643882] (-) TimerEvent: {}
+[11.751392] (-) TimerEvent: {}
+[11.861789] (-) TimerEvent: {}
+[11.967445] (-) TimerEvent: {}
+[12.080221] (-) TimerEvent: {}
+[12.181301] (-) TimerEvent: {}
+[12.333488] (-) TimerEvent: {}
+[12.439172] (-) TimerEvent: {}
+[12.551571] (-) TimerEvent: {}
+[12.661235] (-) TimerEvent: {}
+[12.770582] (-) TimerEvent: {}
+[12.873625] (-) TimerEvent: {}
+[12.982364] (-) TimerEvent: {}
+[13.094954] (-) TimerEvent: {}
+[13.196482] (-) TimerEvent: {}
+[13.298505] (-) TimerEvent: {}
+[13.407810] (-) TimerEvent: {}
+[13.529394] (-) TimerEvent: {}
+[13.642678] (-) TimerEvent: {}
+[13.774296] (-) TimerEvent: {}
+[13.809557] (particle_filter) StdoutLine: {'line': b'running egg_info\n'}
+[13.818650] (particle_filter) StdoutLine: {'line': b'writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO\n'}
+[13.830934] (particle_filter) StdoutLine: {'line': b'writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt\n'}
+[13.831434] (particle_filter) StdoutLine: {'line': b'writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt\n'}
+[13.831722] (particle_filter) StdoutLine: {'line': b'writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt\n'}
+[13.831900] (particle_filter) StdoutLine: {'line': b'writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt\n'}
+[13.877517] (-) TimerEvent: {}
+[13.985230] (-) TimerEvent: {}
+[14.087476] (-) TimerEvent: {}
+[14.189011] (-) TimerEvent: {}
+[14.293645] (-) TimerEvent: {}
+[14.396018] (-) TimerEvent: {}
+[14.423676] (particle_filter) StdoutLine: {'line': b"reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'\n"}
+[14.477133] (particle_filter) StdoutLine: {'line': b"writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'\n"}
+[14.481542] (particle_filter) StdoutLine: {'line': b'running build\n'}
+[14.482754] (particle_filter) StdoutLine: {'line': b'running build_py\n'}
+[14.515608] (-) TimerEvent: {}
+[14.545934] (particle_filter) StdoutLine: {'line': b'running install\n'}
+[14.556102] (particle_filter) StdoutLine: {'line': b'running install_lib\n'}
+[14.587390] (particle_filter) StdoutLine: {'line': b'running install_data\n'}
+[14.623977] (-) TimerEvent: {}
+[14.626643] (particle_filter) StdoutLine: {'line': b'copying config/localize.yaml -> /home/mrc/sim_ws/install/particle_filter/share/particle_filter/config\n'}
+[14.627697] (particle_filter) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.660901] (particle_filter) StdoutLine: {'line': b"removing '/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info' (and everything under it)\n"}
+[14.679103] (particle_filter) StdoutLine: {'line': b'Copying ../../build/particle_filter/particle_filter.egg-info to /home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info\n'}
+[14.697202] (particle_filter) StdoutLine: {'line': b'running install_scripts\n'}
+[14.726072] (-) TimerEvent: {}
+[14.837477] (-) TimerEvent: {}
+[14.930042] (particle_filter) StdoutLine: {'line': b'Installing particle_filter script to /home/mrc/sim_ws/install/particle_filter/lib/particle_filter\n'}
+[14.931480] (particle_filter) StdoutLine: {'line': b"writing list of installed files to '/home/mrc/sim_ws/build/particle_filter/install.log'\n"}
+[14.937744] (-) TimerEvent: {}
+[15.038704] (-) TimerEvent: {}
+[15.169966] (-) TimerEvent: {}
+[15.199026] (particle_filter) CommandEnded: {'returncode': 0}
+[15.274879] (-) TimerEvent: {}
+[15.370828] (particle_filter) JobEnded: {'identifier': 'particle_filter', 'rc': 0}
+[15.375816] (-) TimerEvent: {}
+[15.378109] (-) EventReactorShutdown: {}

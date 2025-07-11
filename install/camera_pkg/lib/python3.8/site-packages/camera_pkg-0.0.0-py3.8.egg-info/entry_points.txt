@@ -1,0 +1,4 @@
+[console_scripts]
+opp_pose_estimator = camera_pkg.opp_pose_estimator:main
+opp_pose_tester = camera_pkg.opp_pose_tester:main
+

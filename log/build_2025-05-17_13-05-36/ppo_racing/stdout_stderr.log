@@ -1,0 +1,58 @@
+running egg_info
+creating ../../build/ppo_racing/ppo_racing.egg-info
+writing ../../build/ppo_racing/ppo_racing.egg-info/PKG-INFO
+writing dependency_links to ../../build/ppo_racing/ppo_racing.egg-info/dependency_links.txt
+writing entry points to ../../build/ppo_racing/ppo_racing.egg-info/entry_points.txt
+writing requirements to ../../build/ppo_racing/ppo_racing.egg-info/requires.txt
+writing top-level names to ../../build/ppo_racing/ppo_racing.egg-info/top_level.txt
+writing manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+package init file 'ppo_racing/__init__.py' not found (or not a regular file)
+reading manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+writing manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mrc/sim_ws/build/ppo_racing/build
+creating /home/mrc/sim_ws/build/ppo_racing/build/lib
+creating /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+copying ppo_racing/utils.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+copying ppo_racing/policy_node.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+copying ppo_racing/reward_node.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+copying ppo_racing/test_gym.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+copying ppo_racing/ppo_agent.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+copying ppo_racing/env_wrapper.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+copying ppo_racing/train.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+running install
+running install_lib
+creating /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/utils.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/policy_node.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/reward_node.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/test_gym.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/ppo_agent.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/env_wrapper.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/train.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/utils.py to utils.cpython-38.pyc
+byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/policy_node.py to policy_node.cpython-38.pyc
+byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/reward_node.py to reward_node.cpython-38.pyc
+byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/test_gym.py to test_gym.cpython-38.pyc
+byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/ppo_agent.py to ppo_agent.cpython-38.pyc
+byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/env_wrapper.py to env_wrapper.cpython-38.pyc
+  File "/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/env_wrapper.py", line 107
+    """Resets sim to start
+                          
+
+   ^
+SyntaxError: EOF while scanning triple-quoted string literal
+
+byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/train.py to train.cpython-38.pyc
+running install_data
+creating /home/mrc/sim_ws/install/ppo_racing/share/ament_index
+creating /home/mrc/sim_ws/install/ppo_racing/share/ament_index/resource_index
+creating /home/mrc/sim_ws/install/ppo_racing/share/ament_index/resource_index/packages
+copying resource/ppo_racing -> /home/mrc/sim_ws/install/ppo_racing/share/ament_index/resource_index/packages
+copying package.xml -> /home/mrc/sim_ws/install/ppo_racing/share/ppo_racing
+running install_egg_info
+Copying ../../build/ppo_racing/ppo_racing.egg-info to /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info
+running install_scripts
+Installing policy_node script to /home/mrc/sim_ws/install/ppo_racing/lib/ppo_racing
+writing list of installed files to '/home/mrc/sim_ws/build/ppo_racing/install.log'

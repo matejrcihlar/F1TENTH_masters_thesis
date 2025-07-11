@@ -1,0 +1,37 @@
+[1.158s] Invoking command in '/home/mrc/sim_ws/src/camera_pkg': PYTHONPATH=/home/mrc/sim_ws/build/camera_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/mrc/sim_ws/build/camera_pkg/build install --record /home/mrc/sim_ws/build/camera_pkg/install.log --install-scripts $base/lib/camera_pkg --single-version-externally-managed install_data
+[1.549s] running egg_info
+[1.549s] creating ../../build/camera_pkg/camera_pkg.egg-info
+[1.550s] writing ../../build/camera_pkg/camera_pkg.egg-info/PKG-INFO
+[1.551s] writing dependency_links to ../../build/camera_pkg/camera_pkg.egg-info/dependency_links.txt
+[1.552s] writing entry points to ../../build/camera_pkg/camera_pkg.egg-info/entry_points.txt
+[1.552s] writing requirements to ../../build/camera_pkg/camera_pkg.egg-info/requires.txt
+[1.552s] writing top-level names to ../../build/camera_pkg/camera_pkg.egg-info/top_level.txt
+[1.554s] writing manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[1.601s] reading manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[1.602s] writing manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[1.602s] running build
+[1.602s] running build_py
+[1.603s] creating /home/mrc/sim_ws/build/camera_pkg/build
+[1.603s] creating /home/mrc/sim_ws/build/camera_pkg/build/lib
+[1.604s] creating /home/mrc/sim_ws/build/camera_pkg/build/lib/camera_pkg
+[1.604s] copying camera_pkg/opp_pose_estimator.py -> /home/mrc/sim_ws/build/camera_pkg/build/lib/camera_pkg
+[1.604s] copying camera_pkg/__init__.py -> /home/mrc/sim_ws/build/camera_pkg/build/lib/camera_pkg
+[1.605s] running install
+[1.609s] running install_lib
+[1.611s] creating /home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg
+[1.612s] copying /home/mrc/sim_ws/build/camera_pkg/build/lib/camera_pkg/opp_pose_estimator.py -> /home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg
+[1.612s] copying /home/mrc/sim_ws/build/camera_pkg/build/lib/camera_pkg/__init__.py -> /home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg
+[1.613s] byte-compiling /home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg/opp_pose_estimator.py to opp_pose_estimator.cpython-38.pyc
+[1.617s] byte-compiling /home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg/__init__.py to __init__.cpython-38.pyc
+[1.618s] running install_data
+[1.618s] creating /home/mrc/sim_ws/install/camera_pkg/share/ament_index
+[1.618s] creating /home/mrc/sim_ws/install/camera_pkg/share/ament_index/resource_index
+[1.618s] creating /home/mrc/sim_ws/install/camera_pkg/share/ament_index/resource_index/packages
+[1.618s] copying resource/camera_pkg -> /home/mrc/sim_ws/install/camera_pkg/share/ament_index/resource_index/packages
+[1.620s] copying package.xml -> /home/mrc/sim_ws/install/camera_pkg/share/camera_pkg
+[1.621s] running install_egg_info
+[1.623s] Copying ../../build/camera_pkg/camera_pkg.egg-info to /home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages/camera_pkg-0.0.0-py3.8.egg-info
+[1.625s] running install_scripts
+[1.653s] Installing opp_pose_estimator script to /home/mrc/sim_ws/install/camera_pkg/lib/camera_pkg
+[1.654s] writing list of installed files to '/home/mrc/sim_ws/build/camera_pkg/install.log'
+[1.698s] Invoked command in '/home/mrc/sim_ws/src/camera_pkg' returned '0': PYTHONPATH=/home/mrc/sim_ws/build/camera_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/camera_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/mrc/sim_ws/build/camera_pkg/build install --record /home/mrc/sim_ws/build/camera_pkg/install.log --install-scripts $base/lib/camera_pkg --single-version-externally-managed install_data

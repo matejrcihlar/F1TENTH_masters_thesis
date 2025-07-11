@@ -1,0 +1,5 @@
+  File "/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package/RRT_node.py", line 230
+    ~, goal_point_index = self.nearest(goal_point)
+     ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,4 @@
+Invoking command in '/home/mrc/sim_ws/build/wall_follow': /usr/bin/cmake --build /home/mrc/sim_ws/build/wall_follow -- -j2 -l2
+Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': /usr/bin/cmake --build /home/mrc/sim_ws/build/wall_follow -- -j2 -l2
+Invoking command in '/home/mrc/sim_ws/build/wall_follow': /usr/bin/cmake --install /home/mrc/sim_ws/build/wall_follow
+Invoked command in '/home/mrc/sim_ws/build/wall_follow' returned '0': /usr/bin/cmake --install /home/mrc/sim_ws/build/wall_follow

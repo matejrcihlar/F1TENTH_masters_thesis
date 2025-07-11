@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/ppo_racing/ppo_racing.egg-info/PKG-INFO
+writing dependency_links to ../../build/ppo_racing/ppo_racing.egg-info/dependency_links.txt
+writing entry points to ../../build/ppo_racing/ppo_racing.egg-info/entry_points.txt
+writing requirements to ../../build/ppo_racing/ppo_racing.egg-info/requires.txt
+writing top-level names to ../../build/ppo_racing/ppo_racing.egg-info/top_level.txt
+package init file 'ppo_racing/__init__.py' not found (or not a regular file)
+reading manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+writing manifest file '../../build/ppo_racing/ppo_racing.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ppo_racing/env_wrapper.py -> /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing
+running install
+running install_lib
+copying /home/mrc/sim_ws/build/ppo_racing/build/lib/ppo_racing/env_wrapper.py -> /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing
+byte-compiling /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/env_wrapper.py to env_wrapper.cpython-38.pyc
+  File "/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing/env_wrapper.py", line 107
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+running install_data
+running install_egg_info
+removing '/home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/ppo_racing/ppo_racing.egg-info to /home/mrc/sim_ws/install/ppo_racing/lib/python3.8/site-packages/ppo_racing-0.0.0-py3.8.egg-info
+running install_scripts
+Installing policy_node script to /home/mrc/sim_ws/install/ppo_racing/lib/ppo_racing
+writing list of installed files to '/home/mrc/sim_ws/build/ppo_racing/install.log'

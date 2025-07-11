@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000984] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.001050] (-) JobUnselected: {'identifier': 'gap_follow'}
+[0.001113] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.001172] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.001200] (-) JobUnselected: {'identifier': 'safety_node'}
+[0.001299] (-) JobUnselected: {'identifier': 'wall_follow'}
+[0.001361] (rrt_package) JobQueued: {'identifier': 'rrt_package', 'dependencies': OrderedDict()}
+[0.002175] (rrt_package) JobStarted: {'identifier': 'rrt_package'}
+[0.098248] (-) TimerEvent: {}
+[0.199257] (-) TimerEvent: {}
+[0.299939] (-) TimerEvent: {}
+[0.400676] (-) TimerEvent: {}
+[0.501884] (-) TimerEvent: {}
+[0.603744] (-) TimerEvent: {}
+[0.704712] (-) TimerEvent: {}
+[0.805477] (-) TimerEvent: {}
+[0.906058] (-) TimerEvent: {}
+[1.006771] (-) TimerEvent: {}
+[1.107458] (-) TimerEvent: {}
+[1.208650] (-) TimerEvent: {}
+[1.309818] (-) TimerEvent: {}
+[1.410467] (-) TimerEvent: {}
+[1.512477] (-) TimerEvent: {}
+[1.613369] (-) TimerEvent: {}
+[1.714020] (-) TimerEvent: {}
+[1.815371] (-) TimerEvent: {}
+[1.916457] (-) TimerEvent: {}
+[2.005525] (rrt_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rrt_package', 'build', '--build-base', '/home/mrc/sim_ws/build/rrt_package/build', 'install', '--record', '/home/mrc/sim_ws/build/rrt_package/install.log', '--install-scripts', '$base/lib/rrt_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mrc/sim_ws/src/rrt_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mrc', 'LC_TIME': 'hr_HR.UTF-8', 'SSH_AGENT_PID': '1475', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/mrc', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'MANAGERPID': '1380', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/mrc/sim_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'mrc', 'JOURNAL_STREAM': '8:57913', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mrc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/mrc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/mrc-foxy:@/tmp/.ICE-unix/1510,unix/mrc-foxy:/tmp/.ICE-unix/1510', 'INVOCATION_ID': '3fa8758524fd4b2cab091e825f588816', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eabdb526_435d_427d_8689_502d1c81189e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.166', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mrc/sim_ws/install/wall_follow:/home/mrc/sim_ws/install/safety_node:/home/mrc/sim_ws/install/rrt_package:/home/mrc/sim_ws/install/pure_pursuit:/home/mrc/sim_ws/install/particle_filter:/home/mrc/sim_ws/install/gap_follow:/home/mrc/sim_ws/install/f1tenth_gym_ros:/home/mrc/sim_ws/install/RRT_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mrc/sim_ws/build/rrt_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrc/sim_ws/build/rrt_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages:/home/mrc/sim_ws/install/wall_follow/lib/python3.8/site-packages:/home/mrc/sim_ws/install/safety_node/lib/python3.8/site-packages:/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages:/home/mrc/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/mrc/sim_ws/install/particle_filter/lib/python3.8/site-packages:/home/mrc/sim_ws/install/gap_follow/lib/python3.8/site-packages:/home/mrc/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/mrc/sim_ws/install/RRT_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/mrc/sim_ws/install/wall_follow:/home/mrc/sim_ws/install/safety_node:/home/mrc/sim_ws/install/pure_pursuit:/home/mrc/sim_ws/install/gap_follow'}, 'shell': False}
+[2.019255] (-) TimerEvent: {}
+[2.121363] (-) TimerEvent: {}
+[2.221971] (-) TimerEvent: {}
+[2.322685] (-) TimerEvent: {}
+[2.423959] (-) TimerEvent: {}
+[2.524782] (-) TimerEvent: {}
+[2.625334] (-) TimerEvent: {}
+[2.726056] (-) TimerEvent: {}
+[2.811829] (rrt_package) StdoutLine: {'line': b'running egg_info\n'}
+[2.813766] (rrt_package) StdoutLine: {'line': b'writing ../../build/rrt_package/rrt_package.egg-info/PKG-INFO\n'}
+[2.814869] (rrt_package) StdoutLine: {'line': b'writing dependency_links to ../../build/rrt_package/rrt_package.egg-info/dependency_links.txt\n'}
+[2.815559] (rrt_package) StdoutLine: {'line': b'writing entry points to ../../build/rrt_package/rrt_package.egg-info/entry_points.txt\n'}
+[2.818048] (rrt_package) StdoutLine: {'line': b'writing requirements to ../../build/rrt_package/rrt_package.egg-info/requires.txt\n'}
+[2.818417] (rrt_package) StdoutLine: {'line': b'writing top-level names to ../../build/rrt_package/rrt_package.egg-info/top_level.txt\n'}
+[2.826912] (-) TimerEvent: {}
+[2.927559] (rrt_package) StdoutLine: {'line': b"reading manifest file '../../build/rrt_package/rrt_package.egg-info/SOURCES.txt'\n"}
+[2.927822] (-) TimerEvent: {}
+[2.929150] (rrt_package) StdoutLine: {'line': b"writing manifest file '../../build/rrt_package/rrt_package.egg-info/SOURCES.txt'\n"}
+[2.929613] (rrt_package) StdoutLine: {'line': b'running build\n'}
+[2.929826] (rrt_package) StdoutLine: {'line': b'running build_py\n'}
+[2.930052] (rrt_package) StdoutLine: {'line': b'copying rrt_package/rrt_pure_pursuit.py -> /home/mrc/sim_ws/build/rrt_package/build/lib/rrt_package\n'}
+[2.934627] (rrt_package) StdoutLine: {'line': b'running install\n'}
+[2.937229] (rrt_package) StdoutLine: {'line': b'running install_lib\n'}
+[2.937420] (rrt_package) StdoutLine: {'line': b'copying /home/mrc/sim_ws/build/rrt_package/build/lib/rrt_package/rrt_pure_pursuit.py -> /home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package\n'}
+[2.941288] (rrt_package) StdoutLine: {'line': b'byte-compiling /home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package/rrt_pure_pursuit.py to rrt_pure_pursuit.cpython-38.pyc\n'}
+[2.946376] (rrt_package) StdoutLine: {'line': b'running install_data\n'}
+[2.946838] (rrt_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.952722] (rrt_package) StdoutLine: {'line': b"removing '/home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.953223] (rrt_package) StdoutLine: {'line': b'Copying ../../build/rrt_package/rrt_package.egg-info to /home/mrc/sim_ws/install/rrt_package/lib/python3.8/site-packages/rrt_package-0.0.0-py3.8.egg-info\n'}
+[2.956718] (rrt_package) StdoutLine: {'line': b'running install_scripts\n'}
+[3.012434] (rrt_package) StdoutLine: {'line': b'Installing RRT_node script to /home/mrc/sim_ws/install/rrt_package/lib/rrt_package\n'}
+[3.013067] (rrt_package) StdoutLine: {'line': b'Installing rrt_pure_pursuit script to /home/mrc/sim_ws/install/rrt_package/lib/rrt_package\n'}
+[3.014458] (rrt_package) StdoutLine: {'line': b"writing list of installed files to '/home/mrc/sim_ws/build/rrt_package/install.log'\n"}
+[3.028096] (-) TimerEvent: {}
+[3.101212] (rrt_package) CommandEnded: {'returncode': 0}
+[3.126040] (rrt_package) JobEnded: {'identifier': 'rrt_package', 'rc': 0}
+[3.127363] (-) EventReactorShutdown: {}

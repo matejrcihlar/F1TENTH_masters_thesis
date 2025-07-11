@@ -1,0 +1,5 @@
+[console_scripts]
+multi_agent_policy_node = ppo_racing.multi_agent_policy_node:main
+policy_node = ppo_racing.policy_node:main
+policy_node_local_obs = ppo_racing.policy_node_local_obs:main
+
